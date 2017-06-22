@@ -6,7 +6,7 @@
 layout: home
 ---
 
-## Was ist DialogOS?
+## 
 
 Bei **DialogOS** handelt es sich um eine **grafische Entwicklungsumgebung für Dialogsysteme**, welche es ermöglicht Programme zu entwickeln, mit denen in natürlicher Sprache kommuniziert werden kann.
 
