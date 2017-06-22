@@ -26,7 +26,7 @@ Seit 2017 ist DialogOS ***Open Source***.
 - (besitzt Komponente zur Kommunikation mit und zur Steuerung eines LEGO Mindstorm NXT-Roboters)? 
 
 ## Neuhinzugekommene Features in der Open Source-Version:
-- ...
+- Französisch als zusätzliche Dialogsprache zu Deutsch und Englisch
 - ...
 	
 &nbsp;
