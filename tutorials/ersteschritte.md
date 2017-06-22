@@ -9,7 +9,7 @@ layout: page
 &nbsp;
 ## Erste Schritte mit DialogOS
 
-### DialogOS starten
+###  DialogOS starten
 - Windows:  
 über das DialogOS Icon [TODO Icon] auf dem Desktop, oder TODO
 - Mac:  

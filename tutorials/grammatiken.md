@@ -1,17 +1,18 @@
 ---
 layout: page
 ---
-# Grammatiken
+# Tutorials
 ---
 [Einleitung](/tutorials.html) &nbsp;&nbsp; [Erste Schritte](ersteschritte.html) &nbsp;&nbsp; [Sprachsynthese](sprachsynthese.html) &nbsp;&nbsp; [Spracherkennung](spracherkennung.html) &nbsp;&nbsp; Grammatiken &nbsp;&nbsp; [Externe Programme](extprogramme.html)
 
 ---
 &nbsp;
+## Grammatiken
 
 TODO Einleitung
 TODO Testen!!!! Funktionieren die Beispiele?
 
-## Variablen
+### Variablen
 Mit steigender Komplexität von Dialogabläufen kann es nützlich sein -- oder sogar notwendig werden -- sich im Dialog etwas zu merken, um später darauf zugreifen zu können. Dies ermöglicht DialogOS durch Nutzung von Variablen.
 
 Der Datentyp einer Variable beschreibt, welche Informationen in ihr gespeichert werden können. Unterstützt werden durch DialogOS folgende Datentypen:
@@ -24,10 +25,10 @@ Der Datentyp einer Variable beschreibt, welche Informationen in ihr gespeichert 
 Weiterführende Informationen zu den Datentypen im DialogOS Handbuch. [TODO *Link*] [TODO *wichtig weil geht noch mehr oder wichtig weil muss beachtet werden?*]
 [TODO *eigene Bezeichnug haben muss? oder dürfen auch welche ohne Bezeichnung dazwischen sein?*]
 
-### Variablen definieren
+#### Variablen definieren
 Bevor eine Variable genutzt werden kann, muss sie definiert werden. Dazu im Menü *Graph* den Befehl *Variable* klicken. (Alternativ durch Rechtsklick auf die Arbeitsfläche und anschließenden Linksklick auf *Variable*.) Anschließend im sich öffnenden Fenster durch Klick auf *Neu* eine neue Variable erstellen und mit Name, Typ und Wert versehen. 
 
-### Beispiel
+#### Beispiel
 Um DialogOS z.B. eine ganze Zahl aus einer Variable aussprechen zu lassen, muss wie folgt vorgegangen werden: 
 * Eine Variable mit Namen (z.B. meineZahl), Typ `int` und einem ganzzahligen Wert (z.B. 5) anlegen. 
 * Einen Sprachausgabe-Knoten in die Arbeitsfläche einfügen, bei diesem im Reiter *Sprachausgabe* den Ausgabe-Typ auf *Ausdruck* setzen. Im Ausdruckfeld darunter folgenden Ausdruck eingeben: &nbsp;`"Das Ergebnis ist" + meineZahl` [TODO *Ausgabe-Typ Beschriftung in DialogOS?*]
@@ -40,15 +41,15 @@ Dieser Ausdruck führt nun dazu, dass DialogOS bei Ausführung des Dialogs "Das 
 Tipp: Der Name einer Variable kann beliebig gewählt werden, muss aber bei Benennung der Variable und ihrer Nutzung im Ausdruck gleich sein. [TODO *nötig?*]
 -->
 
-## Grammatiken
+### Grammatiken
 Wollen wir DialogOS z.B. eine gesprochene Ziffer erkennen lassen, welche es dann in einer vorher definierten Variable speichern soll, benötigen wir Grammatiken.
 
 Eine Grammatik ist eine Menge formaler Regeln, die beschreibt, welche Äußerungen an einem Spracheingabe-Knoten möglich sind. Vorteil von Grammatiken gegenüber einfachen Spracherkennungsmustern ist, dass sie komplexere Beschreibungen der Äußerungen ermöglichen und universell verfügbar sind, also an mehreren Spracherkennungs-Knoten genutzt werden können.
 
-### Grammatik erstellen / bearbeiten
+#### Grammatik erstellen / bearbeiten
 Um eine neue Grammatik zu erstellen oder vorhandene zu verändern oder zu löschen, klickt man im Menü *Graph* auf den Menüpunkt *Grammatiken*. (Alternativ durch Rechtsklick auf die Arbeitsfläche und anschließenden Linksklick auf *Grammatiken*.) Daraufhin öffnet sich ein Fenster, welches die vorhandenen Grammatiken anzeigt. In diesem Fenster kann durch Klick auf *Neu* eine neue Grammatik erstellt werden. Dadurch öffnet sich wiederrum ein weiteres Fester, in welchem im sog. Kopf der Grammatik der Name eingegeben wird und im sog. Rumpf (das große weiße Feld darunter) die Regeln der Grammatik.
 
-### Beispiel 1
+#### Beispiel 1
 Für die Spracherkennung mit anschließendem abspeichern von z.B. ganzen Zahlen (0-9) muss zu allererst eine zugehörige Grammatik erstellt werden (z.B. mit dem Namen "ziffern"). In den Rumpf muss exakt das Folgende:
 
 ```
@@ -75,7 +76,7 @@ Um nun eine ganze Zahl durch den Computer erkennen zu lassen, muss folgendes get
 Nun kann, wenn der Dialog gestartet wird, eine Zahl von 0-9 gesprochen werden, die DialogOS im Anschluss wiederholt.
 (Damit größere Zahlen als 9 verstanden werden können muss die `$ziffer` Regel in der ziffern-Grammatik um weitere Alternativen erweitert werden: ..."10" | "11" | "12" | "13" usw.)
 
-### Beispiel 2
+#### Beispiel 2
 Soll DialogOS darüber hinaus auch rechnen können (z.B. Addition), wird eine etwas aufwendigere Grammatik benötigt. Neben Ziffern muss DialogOS auch Operatoren erkennen und wissen, was diese bedeuten (z.B. dass das Wort "plus" auf Deutsch Addition bedeutet).
 
 Dazu erstellt man eine neue Grammatik (z.B. mit dem Namen "rechnen", die wie folgt aussieht:
@@ -94,6 +95,6 @@ Diese Grammatik ist gegenüber der vorherigen um die Regel `$rechnen` erweitert.
 
 Um den Dialog lauffähig zu bekommen, muss wieder ein Spracherkennungs-Knoten zum Dialog hinzugefügt und zwischen Start-Knoten und Sprachausgabe eingefügt werden (anstatt des vorherigen). Bei diesem muss als Grammatik die neuerstellte Grammatik "rechnen" ausgewählt und als Ausgabe wieder "meineZahl" eingegeben werden.
 
-## Weiteres
+### Weiteres
 Weitere Möglichkeiten, wie komplexe Datentypen und Funktionen, im Handbuch. [TODO *Link*] [TODO *ein oder zwei Sätze mehr?*]
 
