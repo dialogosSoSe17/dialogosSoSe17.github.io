@@ -4,8 +4,8 @@ title: Links
 
 ---
 
-Diese Seite gibt eine Überblick über nützliche Seiten, wie man mit DialogOS umgehen kann, ...
-
+Auf dieser Seite findet ihr einen Überblick von Links die sich inhaltlich mit DialogOS befassen.
+ 
 
 ## Nützliches zur Nutzung von DialogOS
 
@@ -16,7 +16,7 @@ zur Nutzung von Grammatiken, Scripts, Variablen (und der Anbindung von LEGO Mind
 <http://www.debacher.de/wiki/DialogOS>
 
 Auf dieser Seite findet man das bereits häufig erwähnte Handbuch zu DialogOS welches tiefergehende Informationen zur Nutzung von DialogOS bietet.  
-&nbsp;
+&nbsp; (Auch hier können einige Informationen jedoch veraltet sein. Infos dazu in den Tutorials und der Documentation)
 <http://www.coli.uni-saarland.de/courses/pd/dialogos/Handbuch.pdf>
 
 ## Erweiterung von DialogOS
