@@ -14,14 +14,11 @@ Ein Dialog wird in DialogOS grafisch durch ein Ablaufdiagramm dargestellt. Diese
 
 2. In [Sprachsynthese](tutorials/sprachsynthese.html) wird darauf eingegangen, wie die Sprachausgabe manipuliert werden kann.
 
-3. In [Spracherkennung](tutorials/spracherkennung.html) ...
-TODO Kurzbeschreibung
+3. In [Spracherkennung](tutorials/spracherkennung.html) geht es um die dazugehörigen Einstellungsmöglichkeiten. 
 
-4. In [Grammatiken](tutorials/grammatiken.html) ...
-TODO Kurzbeschreibung
+4. In [Grammatiken](tutorials/grammatiken.html) geben wir dir ein kleines Beispiel, wie Grammatiken und Variablen funktionieren.
 
-5. In [Externe Programme](tutorials/extprogramme.html) ...
-TODO Kurzbeschreibung
+5. In [Externe Programme](tutorials/extprogramme.html) bekommst du eine Aleitung zum Einbinden externer Programme.
 
 &nbsp;
 
@@ -29,11 +26,3 @@ Falls du DialogOS noch nicht installiert hast:
 * Installations-Datei 
 * [Installationsanleitung](download.html)
 
-<!--
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
--->
