@@ -1,8 +1,9 @@
 ---
 layout: page
+title: Links
 nav: false
 ---
-# Links
+
 ---
 [Allgemeine Links](/links.html) &nbsp;&nbsp; Publikationen &nbsp;&nbsp; [Sonstiges](sonstiges.html)
 

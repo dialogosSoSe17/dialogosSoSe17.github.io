@@ -1,9 +1,9 @@
 ---
 layout: page
-title: 
+title: Tutorials
 nav: false
 ---
-# Tutorials
+
 ---
 [Einleitung](/tutorials.html) &nbsp;&nbsp; [Erste Schritte](ersteschritte.html) &nbsp;&nbsp; [Sprachsynthese](sprachsynthese.html) &nbsp;&nbsp; [Spracherkennung](spracherkennung.html) &nbsp;&nbsp; Grammatiken &nbsp;&nbsp; [Externe Programme](extprogramme.html)
 

@@ -1,8 +1,9 @@
 ---
 layout: page
+title: Developer-Documentation
 nav: false
 ---
-# Developer-Documentation
+
 ---
 [Introduction](/developerdocumentation.html) &nbsp;&nbsp; Dummy-Seite 1 &nbsp;&nbsp; [Dummy-Seite 2](dummy2.html) &nbsp;&nbsp; ...
 
