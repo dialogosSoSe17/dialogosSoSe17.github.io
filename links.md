@@ -10,46 +10,23 @@ Allgemeine Links &nbsp;&nbsp; [Publikationen](links/publikationen.html) &nbsp;&n
 ---
 &nbsp;
 
-Auf dieser Seite findet ihr einen Überblick von Links die sich inhaltlich mit DialogOS befassen.
- 
+## Hilfreiche Links zum Arbeiten mit DialogOS 
+* Weiterführende Informationen zur [Nutzung von Grammatiken in DialogOS](<https://www.w3.org/TR/jsgf/>).
+* Informationen zum [schreiben von Skripten](http://groovy-lang.org/index.html).
 
-## Nützliches zur Nutzung von DialogOS
+### Allgemeines zur Nutzung von DialogOS
+*<span style="color:red">Achtung:</span> möglicherweise veraltet!*
 
-Auf dieser Seite sind einige grundlegende Informationen zu DialogOS zu finden. Diese können evtl. nicht ganz aktuell sein, da sich DialogOS seit es OpenSource ist
-verändert hat. Nichtsdestotrotz stellt es eine gute Erweiterung zu den Tutorials auf dieser Website dar. Unter Anderem bietet sie einige erweiternde Informationen
-zur Nutzung von Grammatiken, Scripts, Variablen (und der Anbindung von LEGO Mindstorm Robotern)  
-&nbsp;  
-<http://www.debacher.de/wiki/DialogOS>
 
-Auf dieser Seite findet man das bereits häufig erwähnte Handbuch zu DialogOS welches tiefergehende Informationen zur Nutzung von DialogOS bietet.  
-&nbsp; (Auch hier können einige Informationen jedoch veraltet sein. Infos dazu in den Tutorials und der Documentation)  
-&nbsp;
-<http://www.coli.uni-saarland.de/courses/pd/dialogos/Handbuch.pdf>
+* Auf dieser Seite sind einige [grundlegende Informationen zu DialogOS](<http://www.debacher.de/wiki/DialogOS>) zu finden. Diese können evtl. nicht ganz aktuell sein, da sich DialogOS -- seit es OpenSource ist -- verändert hat. Nichtsdestotrotz stellt sie eine gute Erweiterung zu den Tutorials auf dieser Website dar. 
 
-Zu den Grammatiken
-<https://www.w3.org/TR/jsgf/>
+* Auf dieser Seite findet man das bereits häufig erwähnte [Handbuch zu DialogOS](<http://www.coli.uni-saarland.de/courses/pd/dialogos/Handbuch.pdf>), welches tiefergehende Informationen zur Nutzung von DialogOS bietet. (Auch hier sind einige Informationen veraltet.)
 
-## Erweiterung von DialogOS
 
-Diese Paper stellen die Nutzung von DialogOS in einem hybriden System vor.
 
-Inkrementelle und zustandsbasierte Verarbeitung in einem hybriden Sprachdialogsystem  
-&nbsp;
-<https://nats-www.informatik.uni-hamburg.de/pub/User/TimoBaumann/Publications/pentomino2013dgfs.pdf>
 
-Using Affordances to shape the interaction in a hybrid spoken dialog system  
-&nbsp;
-<https://pdfs.semanticscholar.org/6377/c2fc5a3556148a3c13ee4d522482c133e32c.pdf>
 
-Vorstellung des hybriden Systems DialogOS + InproTK  
-&nbsp;
-<http://youtu.be/3sXh2L8Rjkc>
 
-## Paper zu DialogOS
-
-Dialog OS: An extensible platform for teaching spoken dialog systems  
-&nbsp;
-<http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.611.9971&rep=rep1&type=pdf>
 
 
 

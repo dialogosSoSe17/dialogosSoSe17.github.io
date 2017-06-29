@@ -99,4 +99,5 @@ Um den Dialog lauffähig zu bekommen, muss wieder ein Spracherkennungs-Knoten zu
 
 ### Weiteres
 Weitere Möglichkeiten, wie komplexe Datentypen und Funktionen, im Handbuch. [TODO *Link*] [TODO *ein oder zwei Sätze mehr?*]
+Informationen zum schreiben von Skripten [hier](http://groovy-lang.org/index.html).
 
