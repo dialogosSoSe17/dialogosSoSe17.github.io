@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Download
+nav: true
 order: 4
 ---
 

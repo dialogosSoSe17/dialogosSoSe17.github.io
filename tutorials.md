@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Tutorials
+nav: true
 order: 2
 ---
 ---

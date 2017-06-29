@@ -1,5 +1,6 @@
 ---
 layout: page
+nav: false
 ---
 # Developer-Documentation
 ---

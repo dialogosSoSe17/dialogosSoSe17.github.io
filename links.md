@@ -1,8 +1,14 @@
 ---
 layout: page
 title: Links
+nav: true
 order: 5
 ---
+---
+Allgemeine Links &nbsp;&nbsp; [Publikationen](links/publikationen.html) &nbsp;&nbsp; [Sonstiges](links/sonstiges.html)
+
+---
+&nbsp;
 
 Auf dieser Seite findet ihr einen Überblick von Links die sich inhaltlich mit DialogOS befassen.
  
@@ -16,8 +22,12 @@ zur Nutzung von Grammatiken, Scripts, Variablen (und der Anbindung von LEGO Mind
 <http://www.debacher.de/wiki/DialogOS>
 
 Auf dieser Seite findet man das bereits häufig erwähnte Handbuch zu DialogOS welches tiefergehende Informationen zur Nutzung von DialogOS bietet.  
-&nbsp; (Auch hier können einige Informationen jedoch veraltet sein. Infos dazu in den Tutorials und der Documentation)
+&nbsp; (Auch hier können einige Informationen jedoch veraltet sein. Infos dazu in den Tutorials und der Documentation)  
+&nbsp;
 <http://www.coli.uni-saarland.de/courses/pd/dialogos/Handbuch.pdf>
+
+Zu den Grammatiken
+<https://www.w3.org/TR/jsgf/>
 
 ## Erweiterung von DialogOS
 
@@ -41,22 +51,11 @@ Dialog OS: An extensible platform for teaching spoken dialog systems
 &nbsp;
 <http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.611.9971&rep=rep1&type=pdf>
 
-## Applikationen welche DialogOS nutzen
 
-Social Talk Capabilities for Dialogue Systems  
-&nbsp;
-<http://www.coli.uni-saarland.de/bib/files/diss_kluewer.pdf>
 
-A Context-aware Wine Recommender System  
-&nbsp;
-<http://www.dfki.de/iui/bms/folien/DanielStaudt-Masterseminar.pdf>
 
-Talking Robots With LEGO MindStorms  
-&nbsp;
-<http://www.coli.uni-saarland.de/courses/lego-02/coling04.pdf>
 
-Talking Robots 2004 Homepage  
-&nbsp;
-<http://www.coli.uni-saarland.de/courses/lego-04/>
+
+
 
 

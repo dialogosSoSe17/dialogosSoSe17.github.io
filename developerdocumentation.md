@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Developer-Documentation
+nav: true
 order: 3
 ---
 ---
