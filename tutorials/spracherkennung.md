@@ -1,6 +1,6 @@
 ---
 layout: page
-title:
+exclude_from_nav: true
 ---
 # Tutorials
 ---
