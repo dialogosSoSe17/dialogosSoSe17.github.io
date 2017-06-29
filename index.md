@@ -5,6 +5,7 @@
 
 layout: home
 title: Home
+nav: true
 order: 1
 ---
 
