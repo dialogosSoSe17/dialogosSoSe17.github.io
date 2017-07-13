@@ -4,8 +4,10 @@ title: Contribute - Customize the web page
 nav: false
 ---
 
-In order to edit the web page, you need [Jekyll](https://jekyllrb.com/) next to the associated [source code](TODO). The source files you want to edit are all written in Markdown (you can find a tutorial [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)). If you want functionality that goes beyond that, you'll need to use HTML code. Please keep in mind to always save the files in UTF8 format!  
+In order to edit the web page, you need [Jekyll](https://jekyllrb.com/) next to the associated [source code](TODO). The source files you want to edit are all written in Markdown (you can find a tutorial [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)). If you want functionality that goes beyond that, you'll need to use HTML code.  
 If you want to add new pictures, please put them in the folder *pictures*.
+
+Please keep in mind to always <span style="color:red">save the files in UTF8 format!</span>
 
 ## Edit the Developer Documentation
 The developer documentation files are all located in the *developerdocumentation* folder. The only exception is the introduction file, which is located on the first level (*developerdocumentation.md*).
