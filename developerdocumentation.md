@@ -2,10 +2,10 @@
 layout: page
 title: Developer-Documentation
 nav: true
-order: 3
+order: 4
 ---
 ---
-Introduction &nbsp;&nbsp; [Dummy-Seite 1](developerdocumentation/dummy1.html) &nbsp;&nbsp; [Dummy-Seite 2](developerdocumentation/dummy2.html) &nbsp;&nbsp; ...
+Introduction &nbsp;&nbsp; [Architecture](developerdocumentation/architecture.html) &nbsp;&nbsp; [Execution Logger](developerdocumentation/executionlogger.html) &nbsp;&nbsp; [Gradle](developerdocumentation/gradle.html) &nbsp;&nbsp; [Groovy](developerdocumentation/groovy.html) 
 
 ---
 &nbsp;
@@ -29,7 +29,7 @@ We are looking forward to your cooperation!
 When your changes are complete, please proceed as follows:
 * Make sure your code is well commented
 * Push the changes
-* Adjust the developer documentation accordingly
+* Adjust the developer documentation accordingly (if necessary, also the user documentation in the same way)
     * please see the [corresponding notes](contribute.html)
-* If necessary, adjust the website 
+* If necessary, adjust the website
     * please see the [corresponding notes](contribute.html) (bottom of the page)
