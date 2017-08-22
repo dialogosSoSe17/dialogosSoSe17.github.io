@@ -12,8 +12,28 @@ nav: false
 ## Erste Schritte mit DialogOS
 
 ###  DialogOS starten
+
+Um DialogOS starten zu können wird eine [Java Runtime](https://java.com/de/download/) benötigt. 
+(Evtl. bald nicht mehr, ist TODO)
+
+
 - Windows:  
-über das DialogOS Icon [TODO Icon] auf dem Desktop, oder TODO
+
+über das DialogOS Icon [TODO Icon] auf dem Desktop
+
+Es ist auch möglich DialogOS über die Kommandozeile zu starten. 
+(Durch Windows-Suche mit Suchbegriff *Cmd* aufzufinden)
+<br>
+Dazu muss erst der Pfad in dem sich DialogOS befinden aufgerufen werden. 
+(Kommando cd "Pfad zu DialogOS")
+<br>
+Durch das Kommando gradlew.bat run wird zuerst Gradle installiert, falls es benötigt wird
+und anschließend DialogOS gestartet.
+(Das kommt wahrscheinlich doch weg. Gradle soll nur zum builden gebraucht werden. TODO)
+
+
+
+
 - Mac:  
 TODO
 - Linux:  
