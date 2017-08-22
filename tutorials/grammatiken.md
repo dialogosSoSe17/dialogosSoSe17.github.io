@@ -12,7 +12,6 @@ nav: false
 ## Grammatiken
 
 TODO Einleitung
-TODO Testen!!!! Funktionieren die Beispiele?
 
 ### Variablen
 Mit steigender Komplexität von Dialogabläufen kann es nützlich sein -- oder sogar notwendig werden -- sich im Dialog etwas zu merken, um später darauf zugreifen zu können. Dies ermöglicht DialogOS durch Nutzung von Variablen.
@@ -24,8 +23,7 @@ Der Datentyp einer Variable beschreibt, welche Informationen in ihr gespeichert 
 * `string` : Zeichenkette / Text, mit doppelten Anführungszeichen (z.B. "Hallo")
 * `list` : Liste von Daten, mit eckigen Klammern und durch Kommas getrennt (z.B. [0, 1, 2])
 * `struct` : Liste von Daten, bei der jedes Element eine eigene Bezeichnug hat (name = wert), mit geschweiften Klammern und durch Kommas getrennt (z.B.  {eins = 1, zwei = 2})  
-Weiterführende Informationen zu den Datentypen im DialogOS Handbuch. [TODO *Link*] [TODO *wichtig weil geht noch mehr oder wichtig weil muss beachtet werden?*]
-[TODO *eigene Bezeichnug haben muss? oder dürfen auch welche ohne Bezeichnung dazwischen sein?*]
+Weiterführende Informationen zu den Datentypen im DialogOS Handbuch. [TODO *Link*] 
 
 #### Variablen definieren
 Bevor eine Variable genutzt werden kann, muss sie definiert werden. Dazu im Menü *Graph* den Befehl *Variable* klicken. (Alternativ durch Rechtsklick auf die Arbeitsfläche und anschließenden Linksklick auf *Variable*.) Anschließend im sich öffnenden Fenster durch Klick auf *Neu* eine neue Variable erstellen und mit Name, Typ und Wert versehen. 
@@ -33,15 +31,9 @@ Bevor eine Variable genutzt werden kann, muss sie definiert werden. Dazu im Men�
 #### Beispiel
 Um DialogOS z.B. eine ganze Zahl aus einer Variable aussprechen zu lassen, muss wie folgt vorgegangen werden: 
 * Eine Variable mit Namen (z.B. meineZahl), Typ `int` und einem ganzzahligen Wert (z.B. 5) anlegen. 
-* Einen Sprachausgabe-Knoten in die Arbeitsfläche einfügen, bei diesem im Reiter *Sprachausgabe* den Ausgabe-Typ auf *Ausdruck* setzen. Im Ausdruckfeld darunter folgenden Ausdruck eingeben: &nbsp;`"Das Ergebnis ist" + meineZahl` [TODO *Ausgabe-Typ Beschriftung in DialogOS?*]
+* Einen Sprachausgabe-Knoten in die Arbeitsfläche einfügen, bei diesem im Reiter *Sprachausgabe* den Ausgabe-Typ auf *Ausdruck* setzen. Im Ausdruckfeld darunter folgenden Ausdruck eingeben: &nbsp;`"Das Ergebnis ist" + meineZahl`
 
 Dieser Ausdruck führt nun dazu, dass DialogOS bei Ausführung des Dialogs "Das Ergebnis ist" und im Anschluß den Wert der Variable meineZahl sagt. 
-
-[TODO *Beschreibung einer statischen Variable, wie funktioniert eine dynamische?*]
-
-<!--
-Tipp: Der Name einer Variable kann beliebig gewählt werden, muss aber bei Benennung der Variable und ihrer Nutzung im Ausdruck gleich sein. [TODO *nötig?*]
--->
 
 ### Grammatiken
 Wollen wir DialogOS z.B. eine gesprochene Ziffer erkennen lassen, welche es dann in einer vorher definierten Variable speichern soll, benötigen wir Grammatiken.
@@ -60,9 +52,8 @@ root $zahl;
 $zahl = $ziffer { $ = parseInt($ziffer); };
 $ziffer = "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" ;
 ```
-[TODO *Reihenfolge Code / Beschreibung*]
 
-Zunächst steht dort, dass der Spracherkenner Deutsch erkennen soll. Mit root `$zahl` wird `$zahl` als Standardregel bestimmt. `$ziffer` ist eine Grammatikregel, die die möglichen Ziffern (0-9) angibt. `$zahl` wandelt die Ziffer (mit `parseInt`) in eine Zahl um. Dies ist nötig, weil in `$ziffer` auch etwas anderes als eine Zahl drinstehen könnte (theoretisch). [TODO *was könnte denn sonst drin stehen?*]
+Zunächst steht dort, dass der Spracherkenner Deutsch erkennen soll. Mit `root $zahl` wird `$zahl` als Standardregel bestimmt. `$ziffer` ist eine Grammatikregel, die die möglichen Ziffern (0-9) angibt. `$zahl` wandelt die Ziffer (mit `parseInt`) in eine Zahl um. Dies ist nötig, weil in `$ziffer` auch etwas anderes als eine Zahl drinstehen könnte (theoretisch).
 
 In jeder Grammatik wird genau eine Grundregel `root` benötigt. `$` Zeichen deuten auf eine Regel hin und befinden sich immer vor dem Regelnamen. Darauf folgt immer ein `=` Zeichen mit der sog. Expansion der Regel. Das `|` Zeichen (oder) dient dem trennen alternativer Aussagen. Mehr zu komplexeren Grammatiken und weitere Beispiele finden sich im DialogOS Handbuch. [TODO *Link*]
 
@@ -70,10 +61,7 @@ Um nun eine ganze Zahl durch den Computer erkennen zu lassen, muss folgendes get
 * Ein Spracherkennungs-Knoten zur Arbeitsfläche hinzufügen und im Reiter *Spracherkennung* unter *Grammatik* die neu erstellte Grammatik *ziffern* auswählen. 
 * Unter *Eingabemuster* "meineZahl" eingeben (durch vorheriges Klicken auf *Neu*).
 * Den gerade erstellten Spracherkennungs-Knoten im Dialog-Ablauf zwischen dem Start- und Sprachausgabe-Knoten einfügen (Kanten anpassen). 
-
-<!--
 * Jetzt kann die Spracherkennung eine Ziffer erkennen und diese in der vorher erstellten Variable "meineZahl" abspeichern.
--->
 
 Nun kann, wenn der Dialog gestartet wird, eine Zahl von 0-9 gesprochen werden, die DialogOS im Anschluss wiederholt.
 (Damit größere Zahlen als 9 verstanden werden können muss die `$ziffer` Regel in der ziffern-Grammatik um weitere Alternativen erweitert werden: ..."10" | "11" | "12" | "13" usw.)
@@ -98,6 +86,6 @@ Diese Grammatik ist gegenüber der vorherigen um die Regel `$rechnen` erweitert.
 Um den Dialog lauffähig zu bekommen, muss wieder ein Spracherkennungs-Knoten zum Dialog hinzugefügt und zwischen Start-Knoten und Sprachausgabe eingefügt werden (anstatt des vorherigen). Bei diesem muss als Grammatik die neuerstellte Grammatik "rechnen" ausgewählt und als Ausgabe wieder "meineZahl" eingegeben werden.
 
 ### Weiteres
-Weitere Möglichkeiten, wie komplexe Datentypen und Funktionen, im Handbuch. [TODO *Link*] [TODO *ein oder zwei Sätze mehr?*]
-Informationen zum schreiben von Skripten [hier](http://groovy-lang.org/index.html).
+Anstelle des in diesem Tutorial vorgestellten DialogOS eigenen Skript-Codes, kann zum Schreiben von Grammatiken auch Groovy genutzt werden. Informationen zur Nutzung von Groovy findest du in der [User Documetation](/userdocumentation/groovy).  
+Weitere Möglichkeiten, wie komplexe Datentypen oder Funktionen, im Handbuch. [TODO *Link*] 
 
