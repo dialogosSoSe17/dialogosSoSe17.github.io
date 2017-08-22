@@ -91,7 +91,7 @@ The customization of other parts of the web page is similar to that of the devel
 * Please note new features on the start page (*index.md*).
 * Customize the tutorials if the current ones don't work any more (because of changes to the program code). Try to keep them simple.
 * Helpful or interesting links to the *Links* page.
-* TODO Credits
+* If you have made significant changes to the DialogOS code or webpage, you can register your Name on the Credits page under "Subsequent Contributors".
 
 ### Creating New (Sub) Pages:
 * If you want to submit sub-pages to a page that does not already have any, please create a subnavigation. 
