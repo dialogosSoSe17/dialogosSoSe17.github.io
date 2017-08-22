@@ -8,7 +8,7 @@ order: 7
 **<center>Thanks to the supporters</center>**
 <center><a href="https://phraseapp.com">PhraseApp</a></center>
 
-**<center>Transfer of DialogOS to Open Source Software</center>**
+**<center>Transfer of DialogOS to Open Source Software and initial Documentation</center>**
 <center>
 Bri Burr <br>
 Vincent Dahmen <br>
