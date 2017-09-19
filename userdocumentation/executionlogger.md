@@ -58,12 +58,56 @@ If an exception occurs while executing the graph, an exception element is being 
 ```
 
 ### Validation
-Before saving the XML file is being validated against a [RELAX NG Compact](http://www.relaxng.org/compact-tutorial-20030326.html) schema. The validation is a requirement for the saving of the log. So every execution log created by DialogOS satisfies this schema. You can find the schema for the execution log here: TODO insert link to log_schema.rnc
+Before saving the XML file is being validated against a [RELAX NG Compact](http://www.relaxng.org/compact-tutorial-20030326.html) schema. The validation is a requirement for the saving of the log. So every execution log created by DialogOS satisfies this schema. You can find the schema for the execution log below.
 
+#### XML Schema (in RELAX NG Compact)
+```
+start = Log
+Log = element log { Setup, Execution }
+Setup = element setup { Project, Start, Global_variables }
+Project =
+	element project { 
+		attribute name { text }
+	}
+Start =
+	element start {
+		attribute date { text },
+		attribute time { text }
+	}
+Global_variables = element global_variables { Var* }
+Var = 
+	element var {
+		Var_attr
+	}
+Var_attr = 
+	attribute name { text },
+	attribute value { text },
+	attribute type { text },
+	attribute is_groovy_only { text }
 
-
-
-
-
-
+Execution = 
+	element execution { 
+		Graph 
+	}
+Graph = ( Node | Variable_updated | Error )*
+Node = 
+	element node {
+		attribute name { text },
+		attribute type { text },
+		attribute transition_time_ms { xsd:nonNegativeInteger },
+		Global_variables?,
+		Graph?
+	}
+Variable_updated = 
+	element variable_updated {
+		Var_attr
+	}
+Error = 
+	element error {
+		attribute name { text },
+		attribute source { text },
+		attribute message { text },
+		attribute transition_time_ms { xsd:nonNegativeInteger }
+	}
+```
 

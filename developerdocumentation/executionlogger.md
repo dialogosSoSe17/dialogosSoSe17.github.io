@@ -39,7 +39,58 @@ If a node is a GraphNode, not `logNode()` but `logGraphNode()` gets called. The 
 If an exception occurs while executing the graph, a `NodeExecutionException` gets thrown. The `ExecutionLogger` should be passed to the exception, so it will be logged. The method `logException()` in the `ExceptionLogger` gets called by the constructor of the `NodeExecutionException`.
 
 ### Validation
-To guarantee that the outputs are consistent the XML document gets validated against a XML schema before saving. The schema is written in [RELAX NG Compact](http://www.relaxng.org/compact-tutorial-20030326.html) and can be found here: TODO insert link to log_schema.rnc
+*At the moment the validation is disabled, because of conflicts between Jing and the MaryTTS plugin. If the conflict is removed, the validation can be enabled again by setting `_validationEnabled` in `ExecutionLogger` to true and uncommenting the import of Jing in the `build.gradle` of Diamant.*
+
+To guarantee that the outputs are consistent the XML document gets validated against a XML schema before saving. The schema is written in [RELAX NG Compact](http://www.relaxng.org/compact-tutorial-20030326.html).
 The document is validated using [Jing](https://github.com/relaxng/jing-trang), a tool that can use RELAX NG Compact Schemas to validate XML files in Java. If a document does not pass this validation it does not get saved.
 
-*At the moment the validation is disabled, because of conflicts between Jing and the MaryTTS plugin. If the conflict is removed, the validation can be enabled again by setting `_validationEnabled` in `ExecutionLogger` to true and uncommenting the import of Jing in the `build.gradle` of Diamant.*
+#### XML Schema (in RELAX NG Compact)
+```
+start = Log
+Log = element log { Setup, Execution }
+Setup = element setup { Project, Start, Global_variables }
+Project =
+	element project { 
+		attribute name { text }
+	}
+Start =
+	element start {
+		attribute date { text },
+		attribute time { text }
+	}
+Global_variables = element global_variables { Var* }
+Var = 
+	element var {
+		Var_attr
+	}
+Var_attr = 
+	attribute name { text },
+	attribute value { text },
+	attribute type { text },
+	attribute is_groovy_only { text }
+
+Execution = 
+	element execution { 
+		Graph 
+	}
+Graph = ( Node | Variable_updated | Error )*
+Node = 
+	element node {
+		attribute name { text },
+		attribute type { text },
+		attribute transition_time_ms { xsd:nonNegativeInteger },
+		Global_variables?,
+		Graph?
+	}
+Variable_updated = 
+	element variable_updated {
+		Var_attr
+	}
+Error = 
+	element error {
+		attribute name { text },
+		attribute source { text },
+		attribute message { text },
+		attribute transition_time_ms { xsd:nonNegativeInteger }
+	}
+```
