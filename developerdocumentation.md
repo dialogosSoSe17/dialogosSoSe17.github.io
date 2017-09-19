@@ -10,13 +10,14 @@ Introduction &nbsp;&nbsp; [Architecture](developerdocumentation/architecture.htm
 ---
 &nbsp;
 
-## TODO Short introduction [in english]
-TODO [in english]
+Here you can find the current Developer Documentation for DialogOS. Until now (19.09.2017), it contains only information about the program parts that were changed / added during the transfer to Open Source. You are welcome to extend the Developer Documentation (see the section below).
 
 &nbsp;
 
 ---
 &nbsp;
+<a id="contribute">
+
 ## How to contribute
 You want to contribute changes / enhancements to the DialogOS program code?  
 We are looking forward to your cooperation!
@@ -32,4 +33,4 @@ When your changes are complete, please proceed as follows:
 * Adjust the developer documentation accordingly (if necessary, also the user documentation in the same way)
     * please see the [corresponding notes](contribute.html)
 * If necessary, adjust the website
-    * please see the [corresponding notes](contribute.html) (bottom of the page)
+    * please see the [corresponding notes](contribute.html#other_content) (bottom of the page)

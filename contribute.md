@@ -7,9 +7,11 @@ nav: false
 In order to edit the web page, you need [Jekyll](https://jekyllrb.com/) next to the associated [source code](TODO). The source files you want to edit are all written in Markdown (you can find a tutorial [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)). If you want functionality that goes beyond that, you'll need to use HTML code.  
 If you want to add new pictures, please put them in the folder *pictures*.
 
-Please keep in mind to always <span style="color:red">save the files in UTF8 format!</span>
+Please ensure that all links remain functional and keep in mind that you always <span style="color:red">save the files in UTF8 format!</span>
 
-## Edit the Developer Documentation
+## Edit the Developer- / User-Documentation
+*The following description refers to the developer documentation. The user documentation is to be handled similarly.*
+
 The developer documentation files are all located in the *developerdocumentation* folder. The only exception is the introduction file, which is located on the first level (*developerdocumentation.md*).
 
 ### Adapt existing documentation
@@ -84,14 +86,18 @@ TODO [in english]
 ```
 We remind you that the first heading must be formatted as h2 (##). In Jekyll, h1 (#) is provided for the page title (defined in the header), and is not defined. You can use it anyway, but h1 headings appear like h3.
 
+*Tip: If you have made significant changes to the DialogOS code, you can register your name on the Credits page. For more information, see next section.*
+
+<a id="other_content">
+
 ## Edit / Create other content
-The customization of other parts of the web page is similar to that of the developer documentation, with the restriction that these are to be written in **German**. 
+The customization of other parts of the web page is similar to that of the developer / user documentation, with the restriction that these are to be written in **German**. 
 
 ### Editing (Sub) Pages:
-* Please note new features on the start page (*index.md*).
-* Customize the tutorials if the current ones don't work any more (because of changes to the program code). Try to keep them simple.
-* Helpful or interesting links to the *Links* page.
-* If you have made significant changes to the DialogOS code or webpage, you can register your Name on the Credits page under "Subsequent Contributors".
+* Please note new features on the [start page](index.html#neu) (*index.md*).
+* Customize the [Tutorials](tutorials.html) if the current ones don't work any more (because of changes to the program code). Try to keep them simple.
+* Helpful or interesting links to the [Links](links.html) page.
+* If you have made significant changes to the DialogOS code or webpage, you can register your name on the [Credits](credits.html) page under "Subsequent Contributors".
 
 ### Creating New (Sub) Pages:
 * If you want to submit sub-pages to a page that does not already have any, please create a subnavigation. 
