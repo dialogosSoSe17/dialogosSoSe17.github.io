@@ -10,7 +10,7 @@ Einleitung &nbsp;&nbsp; [Erste Schritte](tutorials/ersteschritte.html) &nbsp;&nb
 ---
 &nbsp;
 
-Ein Dialog wird in DialogOS grafisch durch ein Ablaufdiagramm dargestellt. Dieses besteht aus Dialogzuständen (dargestellt durch verschiedene Boxen, nachfolgend Knoten genannt) und Übergängen. Ein Knoten kann dabei die Erkennung einer Spracheingabe, eine sprachliche Ausgabe oder das Ausführen eines sonstigen Kommandos sein. Genaueres zu den einzelnen Dialogzuständen findest du in den Nachfolgenden Tutorials. Für weitergehende Informationen, sieh dir das Handbuch an. [TODO Link]
+Ein Dialog wird in DialogOS grafisch durch ein Ablaufdiagramm dargestellt. Dieses besteht aus Dialogzuständen (dargestellt durch verschiedene Boxen, nachfolgend Knoten genannt) und Übergängen. Ein Knoten kann dabei die Erkennung einer Spracheingabe, eine sprachliche Ausgabe oder das Ausführen eines sonstigen Kommandos sein. Genaueres zu den einzelnen Dialogzuständen findest du in den Nachfolgenden Tutorials. Für weitergehende Informationen, sieh dir die [User-Documentation](userdocumentation.html) an.
 
 1. In [Erste Schritte](tutorials/ersteschritte.html) erklären wir dir, wie du einen simplen Dialog erstellen kannst.
 

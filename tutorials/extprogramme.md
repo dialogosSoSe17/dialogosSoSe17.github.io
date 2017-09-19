@@ -51,7 +51,7 @@ Im Reiter *Optionen* finden sich die selben Optionen wie in den Ausgabe-Knoten, 
 * *Barge-In*: erlaubt eine Eingabe zu tätigen, während
 die Ausgabe noch bearbeitet wird, falls Spracheingabe und Sprachausgabe durch externe Geräte realisiert werden
 
-Weiterführendes zur Anbindung externer Programme, den Knoten und zu globaler Eingabebehandlung im DialogOS Handbuch. [TODO *Link*]
+Weiterführendes zur Anbindung externer Programme, den Knoten und zu globaler Eingabebehandlung in der [User-Documentation](/userdocumentation.html).
 
 
 

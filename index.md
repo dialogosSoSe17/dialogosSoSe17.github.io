@@ -55,4 +55,4 @@ persönlicher oder materieller Schaden entstehen kann!“<sup>1</sup>*
 
 
 
-<sup>1</sup> [DialogOS Handbuch 1.1](http://www.coli.uni-saarland.de/courses/pd/dialogos/Handbuch.pdf) TODO Link prüfen 
+<sup>1</sup> [DialogOS Handbuch 1.1](http://www.coli.uni-saarland.de/courses/pd/dialogos/Handbuch.pdf) 

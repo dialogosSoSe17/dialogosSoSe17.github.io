@@ -23,7 +23,7 @@ Der Datentyp einer Variable beschreibt, welche Informationen in ihr gespeichert 
 * `string` : Zeichenkette / Text, mit doppelten Anführungszeichen (z.B. "Hallo")
 * `list` : Liste von Daten, mit eckigen Klammern und durch Kommas getrennt (z.B. [0, 1, 2])
 * `struct` : Liste von Daten, bei der jedes Element eine eigene Bezeichnug hat (name = wert), mit geschweiften Klammern und durch Kommas getrennt (z.B.  {eins = 1, zwei = 2})  
-Weiterführende Informationen zu den Datentypen im DialogOS Handbuch. [TODO *Link*] 
+Weiterführende Informationen zu den Datentypen in der [User-Documentation](/userdocumentation.html).
 
 #### Variablen definieren
 Bevor eine Variable genutzt werden kann, muss sie definiert werden. Dazu im Menü *Graph* den Befehl *Variable* klicken. (Alternativ durch Rechtsklick auf die Arbeitsfläche und anschließenden Linksklick auf *Variable*.) Anschließend im sich öffnenden Fenster durch Klick auf *Neu* eine neue Variable erstellen und mit Name, Typ und Wert versehen. 
@@ -55,7 +55,7 @@ $ziffer = "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" ;
 
 Zunächst steht dort, dass der Spracherkenner Deutsch erkennen soll. Mit `root $zahl` wird `$zahl` als Standardregel bestimmt. `$ziffer` ist eine Grammatikregel, die die möglichen Ziffern (0-9) angibt. `$zahl` wandelt die Ziffer (mit `parseInt`) in eine Zahl um. Dies ist nötig, weil in `$ziffer` auch etwas anderes als eine Zahl drinstehen könnte (theoretisch).
 
-In jeder Grammatik wird genau eine Grundregel `root` benötigt. `$` Zeichen deuten auf eine Regel hin und befinden sich immer vor dem Regelnamen. Darauf folgt immer ein `=` Zeichen mit der sog. Expansion der Regel. Das `|` Zeichen (oder) dient dem trennen alternativer Aussagen. Mehr zu komplexeren Grammatiken und weitere Beispiele finden sich im DialogOS Handbuch. [TODO *Link*]
+In jeder Grammatik wird genau eine Grundregel `root` benötigt. `$` Zeichen deuten auf eine Regel hin und befinden sich immer vor dem Regelnamen. Darauf folgt immer ein `=` Zeichen mit der sog. Expansion der Regel. Das `|` Zeichen (oder) dient dem trennen alternativer Aussagen. Mehr zu komplexeren Grammatiken und weitere Beispiele finden sich in der [User-Documentation](/userdocumentation.html).
 
 Um nun eine ganze Zahl durch den Computer erkennen zu lassen, muss folgendes getan werden: 
 * Ein Spracherkennungs-Knoten zur Arbeitsfläche hinzufügen und im Reiter *Spracherkennung* unter *Grammatik* die neu erstellte Grammatik *ziffern* auswählen. 
@@ -87,5 +87,5 @@ Um den Dialog lauffähig zu bekommen, muss wieder ein Spracherkennungs-Knoten zu
 
 ### Weiteres
 Anstelle des in diesem Tutorial vorgestellten DialogOS eigenen Skript-Codes, kann zum Schreiben von Grammatiken auch Groovy genutzt werden. Informationen zur Nutzung von Groovy findest du in der [User Documetation](/userdocumentation/groovy).  
-Weitere Möglichkeiten, wie komplexe Datentypen oder Funktionen, im Handbuch. [TODO *Link*] 
+Weitere Möglichkeiten, wie komplexe Datentypen oder Funktionen, in der [User-Documentation](/userdocumentation.html). 
 

@@ -20,7 +20,7 @@ Tipp: Wie in Erste Schritte erwähnt: Bei neu hinzugefügten Spracheingabe-Knote
 
 ### Spracherkennung konfigurieren
 Spracheingabe-Knoten benötigen zwei Dinge: Eine Liste von Eingabemustern (die Wörter und Sätze die erkannt werden sollen) und eine Grammatik, auf welche die Muster passen. 
-Für einfache Kommandos reicht es bei *Grammatik* die Option *Automatisch aus den Mustern generieren* auszuwählen. (Mehr zu Grammatiken im Tutorial [Grammatiken](grammatiken.html) und im Handbuch [TODO *Link*].) Nicht zu vergessen ist einzustellen, in welcher **Sprache** die Kommandos gesprochen werden sollen.
+Für einfache Kommandos reicht es bei *Grammatik* die Option *Automatisch aus den Mustern generieren* auszuwählen. (Mehr zu Grammatiken im Tutorial [Grammatiken](grammatiken.html) und in der [User-Documentation](/userdocumentation.html).) Nicht zu vergessen ist einzustellen, in welcher **Sprache** die Kommandos gesprochen werden sollen.
  
 Um ein neues zu erkennendes Kommando einzutragen, muss zuerst bei *Eingabemuster* auf die Schaltfläche *Neu* geklickt werden. Dies fügt eine leere Zeile ein, in die jeweils ein Kommando (ein Wort oder Satz) eingetragen werden kann. Einfache Beispiele: "Ja", "Nein". Die Schaltfläche *Löschen* ermöglicht es, ausgewählte Kommandos zu entfernen. 
 
