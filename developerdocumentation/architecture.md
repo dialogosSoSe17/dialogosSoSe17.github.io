@@ -5,7 +5,7 @@ nav: false
 ---
 
 ---
-[Introduction](/developerdocumentation.html) &nbsp;&nbsp;  Architecture &nbsp;&nbsp; [Execution Logger](executionlogger.html) &nbsp;&nbsp; [Gradle](gradle.html) &nbsp;&nbsp; [Groovy](groovy.html) 
+[Introduction](/developerdocumentation.html) &nbsp;&nbsp;  Architecture &nbsp;&nbsp; [Execution Logger](executionlogger.html) &nbsp;&nbsp; [Gradle](gradle.html) &nbsp;&nbsp; [Groovy](groovy.html) &nbsp;&nbsp; [Localizaiton](localization.html)
 
 ---
 &nbsp;

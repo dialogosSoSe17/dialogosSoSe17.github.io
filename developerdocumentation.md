@@ -5,7 +5,7 @@ nav: true
 order: 4
 ---
 ---
-Introduction &nbsp;&nbsp; [Architecture](developerdocumentation/architecture.html) &nbsp;&nbsp; [Execution Logger](developerdocumentation/executionlogger.html) &nbsp;&nbsp; [Gradle](developerdocumentation/gradle.html) &nbsp;&nbsp; [Groovy](developerdocumentation/groovy.html) 
+Introduction &nbsp;&nbsp; [Architecture](developerdocumentation/architecture.html) &nbsp;&nbsp; [Execution Logger](developerdocumentation/executionlogger.html) &nbsp;&nbsp; [Gradle](developerdocumentation/gradle.html) &nbsp;&nbsp; [Groovy](developerdocumentation/groovy.html) &nbsp;&nbsp; [Localizaiton](developerdocumentation/localization.html)
 
 ---
 &nbsp;
