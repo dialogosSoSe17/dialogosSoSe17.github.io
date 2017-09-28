@@ -46,7 +46,7 @@ Im Reiter *Eingabe* können durch Klick auf *Neu* Erkennungsmuster hinzugefügt 
 Im Reiter *Optionen* finden sich die selben Optionen wie in den Ausgabe-Knoten, sowie zusätzlich noch die folgenden: 
 * Eine Auswahl zwischen allen, oder spezifischen Geräten: falls nicht die Eingaben aller Geräte berücksichtigt werden sollen
 * *Bisherige Eingabe verwerfen*: falls Einträge in der Eingabeschlange gelöscht werden sollen
-* *Globale Eingabebehandlung deaktivieren* (siehe Handbuch)[TODO *Link*] [TODO *Kurzform?*]
+* *Globale Eingabebehandlung deaktivieren* (siehe [User-Documentation](/userdocumentation.html)
 * *Zeitbegrenzung in ms*: zusätzliche Kante für Zeitüberschreitung
 * *Barge-In*: erlaubt eine Eingabe zu tätigen, während
 die Ausgabe noch bearbeitet wird, falls Spracheingabe und Sprachausgabe durch externe Geräte realisiert werden
