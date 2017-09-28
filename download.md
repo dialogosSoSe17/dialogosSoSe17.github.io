@@ -8,6 +8,9 @@ order: 5
 
 Der Download des DialogOS-Installers ist [hier](http://example.com) zu finden! 
 
+Um den Installer starten zu können, müsst ihr außerdem sicherstellen, dass ihr eine [Java Runtime](https://java.com/de/download/) 
+auf eurem System installiert habt.
+
 
 ## Installation
 
