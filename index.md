@@ -23,22 +23,22 @@ Seit 2017 ist DialogOS ***Open Source***.
 
 ## Features im Überblick: 
                               
-- ermöglicht das Erstellen, Testen und Ausführen von Sprachdialogsystemen.   
-- verfügt über eine Modul-Schnittstelle, die das Kommunizieren mit externen Modulen ermöglicht 
-(z.B. weitere Spracherkenner, externe Datenquellen...)                       
-- (besitzt Komponente zur Kommunikation mit und zur Steuerung eines LEGO Mindstorm NXT-Roboters)? 
-
+- ermöglicht das **Erstellen**, **Testen** und **Ausführen** von **Sprachdialogsystemen**.   
+- verfügt über eine Schnittstelle, die das Kommunizieren mit externen Modulen ermöglicht 
+(z.B. weitere Spracherkenner, externe Datenquellen...)                     
+ 
 <a id="neu" >
 
-## Neuhinzugekommene Features in der Open Source-Version:
+### Neuhinzugekommene Features in der Open Source-Version:
 - Französisch als zusätzliche Dialogsprache zu Deutsch und Englisch
-- ...
+- Groovy-Skript Knoten
+- Aufzeichung des Dialog Execution-Graphs
 	
 &nbsp;
 
 [Hier kommt später ein Screenshot vom Programm, mit einem Beispiel Dialogdiagramm hin]
 
-Wie ihr DialogOS installiert und zum Laufen bringt seht ihr unter [Download](download.html).
+Wie ihr DialogOS installiert seht ihr unter [Download](download.html).
 
 Einen ersten Dialog selber erstellen könnt ihr im Tutorial [Erste Schritte](tutorials/ersteschritte.html).
 
