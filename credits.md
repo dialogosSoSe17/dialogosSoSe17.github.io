@@ -20,7 +20,7 @@ Phil Sehlmeyer <br>
 André Simon
 </center>
 
-**<center>Original Web Page Design</center>**
+**<center>Original Web Page Design & Content</center>**
 <center>
 Dorothee Geiser <br>
 Annika Kolaska
