@@ -19,13 +19,13 @@ Detail, ganz genau angegeben werden, welche Wörter und Sätze, in welcher
 Dialogsituation, verstanden werden sollen. **Zuverlässig funktionieren kann die Spracherkennung erst durch eben diese Einschränkung 
 des möglichen Vokabulars, auf eine konkrete Liste von Wörtern und Sätzen.**
 
-Wurde ein Spracheingabe-Knoten zum Arbeitsbereich hinzugefügt, kann dieser mit einen Doppelklick bearbeitet werden. 
+Wurde ein Spracherkennungs-Knoten zum Arbeitsbereich hinzugefügt, kann dieser mit einen Doppelklick bearbeitet werden. 
 Durch Klick auf den Reiter *Spracherkennung*, kommt man zur Eingabe der zu erkennenden Sprachkommandos. 
 
-Tipp: Wie in Erste Schritte erwähnt: Bei neu hinzugefügten Spracheingabe-Knoten werden anfangs keine Ausgangspfeile angezeigt. Diese sind von der Anzahl der zu erkennenden Sprachkommandos abhängig.
+Tipp: Wie in Erste Schritte erwähnt: Bei neu hinzugefügten Spracherkennungs-Knoten werden anfangs keine Ausgangspfeile angezeigt. Diese sind von der Anzahl der zu erkennenden Sprachkommandos abhängig.
 
 ### Spracherkennung konfigurieren
-Spracheingabe-Knoten benötigen zwei Dinge: Eine Liste von Eingabemustern (die Wörter und Sätze die erkannt werden sollen) und eine Grammatik, auf welche die Muster passen. 
+Spracherkennungs-Knoten benötigen zwei Dinge: Eine Liste von Eingabemustern (die Wörter und Sätze die erkannt werden sollen) und eine Grammatik, auf welche die Muster passen. 
 Für einfache Kommandos reicht es bei *Grammatik* die Option *Automatisch aus den Mustern generieren* auszuwählen. 
 (Mehr zu Grammatiken im Tutorial [Grammatiken](grammatiken.html) und in der [User-Documentation](/userdocumentation.html).) 
 Nicht zu vergessen ist einzustellen in welcher *Sprache* die Kommandos gesprochen werden sollen.
@@ -42,14 +42,14 @@ Tipp: Es kann die **Standardsprache** für die Spracheingabe umgestellt werden. 
 (oberhalb der Symbolleiste), und *Spracherkennung*. 
 
 ### Zur Laufzeit
-Die Spracherkennung wird im Laufe eines Dialogs immer nur dann aktiv, wenn ein Spracheingabe-Knoten erreicht wird. (Hierauf macht ein Fenster mit 
+Die Spracherkennung wird im Laufe eines Dialogs immer nur dann aktiv, wenn ein Spracherkennungs-Knoten erreicht wird. (Hierauf macht ein Fenster mit 
 der Anmerkung "Spracherkennung aktiviert" aufmerksam.) Beim Verlassen des Knotens wird sie wieder deaktiviert. 
 Nur innerhalb dieses Zeitraums nimmt DialogOS eine Spracheingabe an.
 
 In Abhängigkeit davon, welches der voreingestellten Kommandos erkannt wurde, wird der Dialog über den dazugehörigen Ausgangspfeil fortgesetzt.
 
 ### weitere Optionen
-Spracheingabe-Knoten verfügen noch über einen weiteren Reiter *Optionen*. Hier wird die Möglichkeit angeboten, eine Zeitbegrenzung für die 
+Spracherkennungs-Knoten verfügen noch über einen weiteren Reiter *Optionen*. Hier wird die Möglichkeit angeboten, eine Zeitbegrenzung für die 
 Spracheingabe vorzugeben. Die Angabe geschieht in Form von Millisekunden (1000 entspricht einer Sekunde). 
 Durch die Aktivierung dieser Option erhält der Knoten einen zusätzlichen Ausgang, über den der Dialog im Falle einer Zeitüberschreitung 
 fortgeführt wird. (z.B. mit einer Kante zu einem Sprachausgabe-Knoten, der den Text "Ihre Zeit ist abgelaufen" ausgibt.) 

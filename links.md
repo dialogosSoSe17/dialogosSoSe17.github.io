@@ -11,8 +11,8 @@ Allgemeine Links &nbsp;&nbsp; [Publikationen](links/publikationen.html) &nbsp;&n
 &nbsp;
 
 ## Hilfreiche Links zum Arbeiten mit DialogOS 
-* Weiterführende Informationen zur [Nutzung von Grammatiken in DialogOS](<https://www.w3.org/TR/jsgf/>).
-* Informationen zum [schreiben von Skripten](http://groovy-lang.org/index.html).
+* Weiterführende Informationen zur Nutzung von [JSGF Grammatiken in DialogOS](<https://www.w3.org/TR/jsgf/>). [TODO: ist dies noch korrekt?]
+* Informationen zum [Schreiben von Skripten mit Groovy](http://groovy-lang.org/index.html).
 
 ### Allgemeines zur Nutzung von DialogOS
 *<span style="color:red">Achtung:</span> möglicherweise veraltet!*

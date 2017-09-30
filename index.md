@@ -24,7 +24,7 @@ Seit 2017 ist DialogOS ***Open Source***.
 ## Features im Überblick: 
                               
 - ermöglicht das **Erstellen**, **Testen** und **Ausführen** von **Sprachdialogsystemen**.   
-- verfügt über eine Schnittstelle, die das Kommunizieren mit externen Modulen ermöglicht 
+- [TODO: noch unklar] verfügt über eine Schnittstelle, die das Kommunizieren mit externen Modulen ermöglicht 
 (z.B. weitere Spracherkenner, externe Datenquellen...)                     
  
 <a id="neu" >

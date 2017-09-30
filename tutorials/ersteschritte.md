@@ -16,7 +16,7 @@ nav: false
 Um den Installer und DialogOS starten zu können wird eine [Java Runtime](https://java.com/de/download/) benötigt. 
 
 Nach erfolgreicher Installation von Java, dem Download des [DialogOS Installers](/download.html) 
-und der Installation von DialogOS, kann das Programm durch Doppelklick auf die Datei dialogos-all.jar
+und der Installation von DialogOS, kann das Programm durch Doppelklick auf die Datei *dialogos-all.jar*
 im Installationspfad gestartet werden.
 Wurde während der Installation ein DialogOS-Icon auf dem Desktop und/oder ein Eintrag im Startmenü erstellt, kann DialogOS auch 
 mithilfe dieser gestartet werden.

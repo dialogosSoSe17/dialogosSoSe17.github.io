@@ -43,9 +43,9 @@ Dieser Ausdruck führt nun dazu, dass DialogOS bei Ausführung des Dialogs "Das 
 
 ### Grammatiken
 
-Eine Grammatik ist eine Menge formaler Regeln, die beschreibt welche Äußerungen an einem Spracheingabe-Knoten möglich sind. 
+Eine Grammatik ist eine Menge formaler Regeln, die beschreibt welche Äußerungen an einem Spracherkennungs-Knoten möglich sind. 
 Vorteil von Grammatiken gegenüber einfachen Spracherkennungsmustern ist, dass sie komplexere Beschreibungen der Äußerungen ermöglichen und 
-universell verfügbar sind, also an mehreren Spracheingabe-Knoten genutzt werden können.
+universell verfügbar sind, also an mehreren Spracherkennungs-Knoten genutzt werden können.
 
 #### Grammatik erstellen / bearbeiten
 Um eine neue Grammatik zu erstellen oder vorhandene zu verändern oder zu löschen, klickt man im Menü *Graph* auf den Menüpunkt *Grammatiken*. 
@@ -74,9 +74,9 @@ Darauf folgt immer ein `=` Zeichen mit der sog. Expansion der Regel. Das `|` Zei
 Mehr zu komplexeren Grammatiken und weitere Beispiele finden sich in der [User-Documentation](/userdocumentation.html).
 
 Um nun eine ganze Zahl durch den Computer erkennen zu lassen, muss folgendes getan werden: 
-* Ein Spracheingabe-Knoten zur Arbeitsfläche hinzufügen und im Reiter *Spracherkennung* unter *Grammatik* die neu erstellte Grammatik *ziffern* auswählen. 
+* Ein Spracherkennungs-Knoten zur Arbeitsfläche hinzufügen und im Reiter *Spracherkennung* unter *Grammatik* die neu erstellte Grammatik *ziffern* auswählen. 
 * Unter *Eingabemuster* das Wort "meineZahl" (ohne Anführungsstriche) eingeben (durch vorheriges Klicken auf *Neu*).
-* Den gerade erstellten Spracheingabe-Knoten im Dialog-Ablauf zwischen dem Start- und Sprachausgabe-Knoten einfügen (Kanten anpassen). 
+* Den gerade erstellten Spracherkennungs-Knoten im Dialog-Ablauf zwischen dem Start- und Sprachausgabe-Knoten einfügen (Kanten anpassen). 
 * Jetzt kann die Spracherkennung eine Ziffer erkennen und diese in der vorher erstellten Variable "meineZahl" abspeichern.
 
 Nun kann, wenn der Dialog gestartet wird, eine Zahl von 0-9 gesprochen werden, die DialogOS im Anschluss wiederholt.
@@ -99,7 +99,7 @@ $ziffer = "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" ;
 Diese Grammatik ist gegenüber der vorherigen um die Regel `$rechnen` erweitert. Diese erlaubt zunächt Muster der Art `(zahl plus zahl)` zu verstehen, wobei die Zahlen aus den unter `$ziffer` festgelegten Ziffern bestehen müssen. Anschließend steht in der geschweiften Klammer in 
 `$rechnen`, dass das Ergebnis von `$rechnen` die Addition der beiden Zahlen sein soll.
 
-Um DialogOS nun rechnen zu lassen, muss beim vorhandene Spracheingabe-Knoten (der zwischen Start-Knoten und Sprachausgabe-Knoten) 
+Um DialogOS nun rechnen zu lassen, muss beim vorhandene Spracherkennungs-Knoten (der zwischen Start-Knoten und Sprachausgabe-Knoten) 
 als Grammatik die neuerstellte Grammatik "rechnen" ausgewählt und als Ausgabe "meineZahl" stehengelassen werden. 
 
 Nun kann, wenn der Dialog gestartet wird, z.B. 2 + 5 gesagt werden. Das Ergebnis speichert DialogOS in "meineZahl" und gibt es daraufhin zurück.
