@@ -20,8 +20,8 @@ lediglich durch ein Doppelklick gestartet werden.
 Zur Installation von DialogOS muss anschließend lediglich den Aufforderungen des Installers gefolgt werden.
 
 **Alternative:** 
-Falls der Installer nicht funktioniert (was evtl. auf einigen bestimmten Betriebsystemen der Fall sein könnte)
-kann die *dialogos-all.jar* zum Starten von DialogOS auch direkt aus dem git-Repository bezogen werden.
+Falls der Installer nicht funktioniert (was evtl. auf einigen bestimmten Betriebssystemen der Fall sein könnte)
+kann die *dialogos-all.jar* zum Starten von DialogOS auch direkt aus dem Git-Repository bezogen werden.
 [TODO Link auf DialogOS im Git-Repository]
 
   

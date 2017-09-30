@@ -53,8 +53,11 @@ Tipp: Keine ganzen Sätze vorgeben, denn diese müssen dann auch **exakt** wie v
 
 ### Dialog ausführen
 Um aus den erstellten Spracherkennungs- und Sprachausgabe-Knoten einen Dialog zu formen, müssen diese in der richtigen Reihenfolge verbunden werden.
- Dies funktioniert durch Anklicken eines Ausgangspfeils eines Knotens und ziehen der entstehenden Kante auf einen beliebigen anderen Knoten. Fügt nun noch ein *Ende* Symbol ein (wieder zu finden in der Knotenleiste). 
- Achtet darauf, alle Knoten, nach denen kein weiterer Dialog mehr folgt, mit dem *Ende* Symbol zu verbinden. Nun kann der Dialog mit einem Klick auf *Ausführen* ausprobiert werden. (Denkt ans Speichern!). 
+ Dies funktioniert durch Anklicken eines Ausgangspfeils eines Knotens und ziehen der entstehenden Kante auf einen beliebigen anderen Knoten. 
+ Fügt nun noch ein *Ende* Symbol ein (wieder zu finden in der Knotenleiste). Wieder gelöscht werden können Kanten außerdem durch einfaches Anklicken der unerwünschten
+ Kante und das Drücken der Entfernen-Taste.
+ Achtet darauf, alle Knoten, nach denen kein weiterer Dialog mehr folgt, mit dem *Ende* Symbol zu verbinden. 
+ Nun kann der Dialog mit einem Klick auf *Ausführen* ausprobiert werden. (Denkt ans Speichern!). 
 
 Tipp: mit Headset klappt die Erkennung besser.
 

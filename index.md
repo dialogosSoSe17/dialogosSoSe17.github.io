@@ -57,4 +57,4 @@ persönlicher oder materieller Schaden entstehen kann!“<sup>1</sup>*
 
 
 
-<sup>1</sup> [DialogOS Handbuch 1.1](http://www.coli.uni-saarland.de/courses/pd/dialogos/Handbuch.pdf) 
+<sup>1</sup> [*DialogOS 1.1 Handbuch*](http://www.coli.uni-saarland.de/courses/pd/dialogos/Handbuch.pdf) 

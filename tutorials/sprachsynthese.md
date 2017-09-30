@@ -19,7 +19,7 @@ Um die Eigenschaften der Sprachsynthese zu konfigurieren, wählt den Reiter *Spr
 ### Unterschiedliche Stimmen
 An jedem Sprachausgabe-Knoten kann, im Drop-Down Menü *Stimme*, gesondert ausgewählt werden mit welcher Stimme der angegebene Text gesprochen werden soll. 
 
-Um die Stimme nicht für jeden Sprachausgabe-Knoten einzeln einstellen zu müssen, kann eine Standardstimme für den gesamten Dialog gesetzt werden. 
+Um die Stimme nicht für jeden Sprachausgabe-Knoten einzeln einstellen zu müssen, kann eine **Standardstimme** für den gesamten Dialog gesetzt werden. 
 Hierzu müsst ihr im Menü *Dialog* (oberhalb der Symbolleiste)  *Sprachausgabe* auswählen. Dann öffnet sich ein Fenster, in welchem u.a. die Standardstimme 
 festgelegt werden kann. 
 [TODO Abbildung zu Dialogeinstellungen für die Sprachausgabe?]
@@ -37,7 +37,9 @@ Konkret: In den ersten Sprachausgabe-Knoten gebt ihr unter *Ausgabe* "Ich hör a
 Namen, Zahlwörter (1998, 1. , 2. ...), Abkürzungen u.a. werden evtl. von unterschiedlichen Stimmen unterschiedlich ausgesprochen. Hier heißt die Devise: Immer vorher ausprobieren!
 
 ### Laufzeitverhalten
-Standartmäßig wartet DialogOS, bis die aktuelle Sprachausgabe abgeschlossen ist, bevor der Dialog im nächsten Knoten fortgesetzt wird. Wird diese Option deaktiviert (*Warten bis die Ausgabe abgeschlossen ist*), wird der Dialog fortgesetzt, während das System noch spricht. So kann z.B. die Spracherkennung aktiviert werden (o.A.), während gleichzeitig noch die Sprachausgabe läuft.
+Standartmäßig wartet DialogOS, bis die aktuelle Sprachausgabe abgeschlossen ist, bevor der Dialog im nächsten Knoten fortgesetzt wird. 
+Wird diese Option deaktiviert (*Warten bis die Ausgabe abgeschlossen ist*), wird der Dialog fortgesetzt, während das System noch spricht. 
+So kann z.B. die Spracherkennung aktiviert werden o.a., während gleichzeitig noch die Sprachausgabe läuft.
 
 ### Weiteres
 Unter *Ausgabe-Typ* kann zwischen der Ausgabe als einfacher Text, als Ausdruck (hierbei wird der Text als Formel interpretiert) oder Groovy Skript gewählt werden. 
