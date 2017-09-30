@@ -5,7 +5,7 @@ nav: false
 ---
 
 ---
-[Einleitung](/tutorials.html) &nbsp;&nbsp; [Erste Schritte](ersteschritte.html) &nbsp;&nbsp; [Sprachsynthese](sprachsynthese.html) &nbsp;&nbsp; [Spracherkennung](spracherkennung.html) &nbsp;&nbsp; Grammatiken &nbsp;&nbsp; [Externe Programme](extprogramme.html)
+[Einleitung](/tutorials.html) &nbsp;&nbsp; [Erste Schritte](ersteschritte.html) &nbsp;&nbsp; [Sprachsynthese](sprachsynthese.html) &nbsp;&nbsp; [Spracherkennung](spracherkennung.html) &nbsp;&nbsp; Grammatiken &nbsp;&nbsp;
 
 ---
 &nbsp;

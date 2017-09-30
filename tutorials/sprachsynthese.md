@@ -5,20 +5,27 @@ nav: false
 ---
 
 ---
-[Einleitung](/tutorials.html) &nbsp;&nbsp; [Erste Schritte](ersteschritte.html) &nbsp;&nbsp; Sprachsynthese &nbsp;&nbsp; [Spracherkennung](spracherkennung.html) &nbsp;&nbsp; [Grammatiken](grammatiken.html) &nbsp;&nbsp; [Externe Programme](extprogramme.html)
+[Einleitung](/tutorials.html) &nbsp;&nbsp; [Erste Schritte](ersteschritte.html) &nbsp;&nbsp; Sprachsynthese &nbsp;&nbsp; [Spracherkennung](spracherkennung.html) &nbsp;&nbsp; [Grammatiken](grammatiken.html) &nbsp;&nbsp;
 
 ---
 &nbsp;
 ## Sprachsynthese
 
-DialogOS enthält ein eingebautes Text-to-Speech-System, das es erlaubt, beliebige Texte vorzulesen. Der zu sprechende Text muss also -- in der Theorie -- nur eingetippt werden. Keine Sprachsynthese funktioniert jedoch jemals perfekt, jedenfalls nicht immer im ersten Anlauf. In diesem Tutorial soll darauf eingegangen werden, wie die Sprachsynthese beeinflusst werden kann.
+DialogOS enthält ein eingebautes Text-to-Speech-System, welches es erlaubt beliebige Texte vorzulesen. Der zu sprechende Text muss also -- in der Theorie -- nur eingetippt werden. Keine Sprachsynthese funktioniert jedoch jemals perfekt, jedenfalls nicht immer im ersten Anlauf. In diesem Tutorial soll darauf eingegangen werden, wie die Sprachsynthese beeinflusst werden kann.
 
-Mit einem Doppelklick auf den zu ändernden Sprachausgabe-Knoten können die Eigenschaften desselben bearbeitet werden. Um die Eigenschaften der Sprachsynthese zu konfigurieren, wähle den Reiter *Sprachausgabe*.
+Mit einem Doppelklick auf den zu ändernden Sprachausgabe-Knoten können die Eigenschaften desselben bearbeitet werden. 
+Um die Eigenschaften der Sprachsynthese zu konfigurieren, wählt den Reiter *Sprachausgabe*.
 
 ### Unterschiedliche Stimmen
-An jedem Sprachausgabe-Knoten kann im Drop-Down Menü *Stimme* gesondert ausgewählt werden, mit welcher Stimme der angegebene Text gesprochen werden soll. 
+An jedem Sprachausgabe-Knoten kann, im Drop-Down Menü *Stimme*, gesondert ausgewählt werden mit welcher Stimme der angegebene Text gesprochen werden soll. 
 
-Um die Stimme nicht für jeden Sprachausgabe-Knoten einzeln einstellen zu müssen, kann eine Standardstimme für den gesamten Dialog gesetzt werden. Wähle hierzu im Menü *Dialog* (oberhalb der Symbolleiste)  *Sprachausgabe* aus. Dann öffnet sich ein Fenster, in welchem u.a. die Standardstimme festgelegt werden kann. [Abbildung zu Dialogeinstellungen für die Sprachausgabe?] Alle nachfolgend erstellten Sprachausgabe-Knoten haben nun als Stimme die *Standardstimme*. Diese Einstellung kann natürlich an ausgewählten Knoten verändert werden.
+Um die Stimme nicht für jeden Sprachausgabe-Knoten einzeln einstellen zu müssen, kann eine Standardstimme für den gesamten Dialog gesetzt werden. 
+Hierzu müsst ihr im Menü *Dialog* (oberhalb der Symbolleiste)  *Sprachausgabe* auswählen. Dann öffnet sich ein Fenster, in welchem u.a. die Standardstimme 
+festgelegt werden kann. 
+[TODO Abbildung zu Dialogeinstellungen für die Sprachausgabe?]
+ 
+Alle nachfolgend erstellten Sprachausgabe-Knoten haben nun als Stimme die *Standardstimme*. Diese Einstellung kann natürlich an ausgewählten 
+Knoten verändert werden.
 
 ### (korrekte) Aussprache / Sprache
 Bei der Auswahl einer Stimme muss beachtet werden, dass für die korrekte Aussprache eines deutschen Wortes oder Satzes auch eine deutsche Stimme gewählt werden muss. Für englische Wörter und Sätze entsprechend eine englische Stimme. Um vor Ausführung des Dialoges die Aussprache eines Wortes oder Satzes probeweise anzuhören, genügt ein einfacher Klick auf die Schaltfläche *Anhören*.
@@ -33,6 +40,7 @@ Namen, Zahlwörter (1998, 1. , 2. ...), Abkürzungen u.a. werden evtl. von unter
 Standartmäßig wartet DialogOS, bis die aktuelle Sprachausgabe abgeschlossen ist, bevor der Dialog im nächsten Knoten fortgesetzt wird. Wird diese Option deaktiviert (*Warten bis die Ausgabe abgeschlossen ist*), wird der Dialog fortgesetzt, während das System noch spricht. So kann z.B. die Spracherkennung aktiviert werden (o.A.), während gleichzeitig noch die Sprachausgabe läuft.
 
 ### Weiteres
-Unter *Ausgabe-Typ* kann zwischen der Ausgabe als einfacher Text, als Ausdruck oder Groovy Skript gewählt werden (hierbei wird der Text als Formel interpretiert). Mehr dazu unter [Grammatiken](grammatiken.html) oder in der [User-Documentation](/userdocumentation.html).
+Unter *Ausgabe-Typ* kann zwischen der Ausgabe als einfacher Text, als Ausdruck (hierbei wird der Text als Formel interpretiert) oder Groovy Skript gewählt werden. 
+Mehr dazu im übernächsten Tutorial [Grammatiken](grammatiken.html) oder in der [User-Documentation](/userdocumentation.html).
 
 

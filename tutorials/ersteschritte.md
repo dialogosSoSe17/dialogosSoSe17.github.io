@@ -5,7 +5,7 @@ nav: false
 ---
 
 ---
-[Einleitung](/tutorials.html) &nbsp;&nbsp; Erste Schritte &nbsp;&nbsp; [Sprachsynthese](sprachsynthese.html) &nbsp;&nbsp; [Spracherkennung](spracherkennung.html) &nbsp;&nbsp; [Grammatiken](grammatiken.html) &nbsp;&nbsp; [Externe Programme](extprogramme.html)
+[Einleitung](/tutorials.html) &nbsp;&nbsp; Erste Schritte &nbsp;&nbsp; [Sprachsynthese](sprachsynthese.html) &nbsp;&nbsp; [Spracherkennung](spracherkennung.html) &nbsp;&nbsp; [Grammatiken](grammatiken.html) &nbsp;&nbsp;
 
 ---
 &nbsp;
@@ -30,26 +30,37 @@ Mit Klick auf *neuen Dialog erstellen* öffnet sich das Arbeitsfenster mit einem
 - **Prozedurliste**: Menü am linken Rand mit einer Liste aller Untergraphen (Teildialoge) -- es können mehrere Knoten zu einem eigenen (Teil-)Dialog zusammengefasst werden. 
 
 ### Speichern
-Auch wenn es selbstverständlich sein sollte, möchten wir hier noch einmal auf die Wichtigkeit des häufigen Speicherns hinweisen. Wie immer beim programmieren solltet ihr möglichst häufig speichern, um euren Fortschritt nicht zu verlieren, falls das Programm abstürzen sollte. Das sollte nicht passieren, aber man weiß ja nie...
+Auch wenn es selbstverständlich sein sollte, möchten wir hier noch einmal auf die Wichtigkeit des häufigen Speicherns hinweisen. Wie immer beim Programmieren solltet ihr möglichst häufig speichern, um euren Fortschritt nicht zu verlieren, falls das Programm abstürzen sollte. Das sollte nicht passieren, aber man weiß ja nie...
 
 ### Einen Dialog erstellen
 Ein einfacher Dialog besteht erst einmal aus Spracheingabe und Sprachausgabe. Der Sprachausgabe-Knoten lässt den Computer etwas sagen, der Spracherkennungs-Knoten lässt ihn zuhören.
 
 #### Sprachausgabe-Knoten
-Um eine Sprachausgabe einzurichten, muss erst einmal per Drag&Drop einen Sprachausgabe-Knoten in den Dialog eingefügt werden. (Du findest diesen im Menü unten rechts.) Mit Doppelklick auf den soeben erstellten Sprachausgabe-Knoten öffnet sich ein neues Fenster. Wähle dort *Sprachausgabe* und füge in dem Feld *Ausgabe* den Text ein, den der Computer ausgeben soll. Mit *Anhören* kannst du die erstellte Sprachausgabe testen. Zum Schluss mit *OK* bestätigen.
+Um eine Sprachausgabe einzurichten, muss erst einmal per Drag&Drop ein Sprachausgabe-Knoten in den Dialog eingefügt werden. (Ihr findet diesen im Menü unten rechts.) 
+Mit Doppelklick auf den soeben erstellten Sprachausgabe-Knoten öffnet sich ein neues Fenster. 
+Dort muss *Sprachausgabe* ausgewählt und dann in dem Feld *Ausgabe* der Text eingegeben werden, den der Computer ausgeben soll. Mit *Anhören* könnt ihr die erstellte Sprachausgabe testen. Zum Schluss mit *OK* bestätigen.
 
 #### Spracherkennungs-Knoten
-Um eine Spracherkennung einzurichten, muss auch erst einmal per Drag&Drop einen Spracherkennungs-Knoten in den Dialog eingefügt werden. (Auch diesen findest du in der Knotenleiste.) Mit Doppelklick auf den soeben erstellten Spracherkennungs-Knoten öffnet sich ein neues Fenster. Wähle dort *Spracherkennung* und füge mit *Neu* in die Liste *Eingabemuster* neue Wörter / Sätze ein, die dein Programm erkennen können soll.  Wie auch schon bei der Sprachausgabe kannst du deine Einstellungen austesten (mit *Ausprobieren*) und mit *OK* bestätigen. DialogOS hat nun an den bearbeiteten Spracherkennungs-Knoten genau so viele Pfeile angefügt, wie du Möglichkeiten für die Erkennung vorgegeben habt. Verbleibt man eine kleine Weile mit dem Mauszeiger über einem dieser Ausgänge erscheint ein Tooltipp, welcher anzeigt, welchem Kommando dieser zugeordnet ist. 
+Um eine Spracherkennung einzurichten, muss auch erst einmal per Drag&Drop ein Spracherkennungs-Knoten in den Dialog eingefügt werden. 
+(Auch diesen findet ihr in der Knotenleiste.) Mit Doppelklick auf den soeben erstellten Spracherkennungs-Knoten öffnet sich ein neues Fenster. 
+Wählt dort *Spracherkennung* und fügt mit *Neu* in die Liste *Eingabemuster* neue Wörter / Sätze ein, die das Programm erkennen können soll.  
+Wie auch schon bei der Sprachausgabe können die Einstellungen getestet werden (mit *Ausprobieren*). Anschließend mit *OK* bestätigen. 
+DialogOS hat nun an dem bearbeiteten Spracherkennungs-Knoten genau so viele Pfeile angefügt, wie Möglichkeiten für die Erkennung vorgegeben 
+wurden. Verbleibt man eine kleine Weile mit dem Mauszeiger über einem dieser Ausgänge erscheint ein Tooltipp, welcher anzeigt welchem Kommando 
+dieser zugeordnet ist. 
 
 Tipp: Keine ganzen Sätze vorgeben, denn diese müssen dann auch **exakt** wie vorgegeben gesagt werden, um erkannt zu werden. Besser sind ein oder zwei Wörter.
 
-### Dialog Ausführen
-Um aus den erstellten Spracherkennungs- und Sprachausgabe-Knoten einen Dialog zu formen, müssen diese in der richtigen Reihenfolge verbunden werden. Dies funktioniert durch Anklicken eines Ausgangspfeils eines Knotens und ziehen der entstehenden Kante auf einen beliebigen anderen Knoten. Füge nun noch ein *Ende* Symbol ein (wieder zu finden in der Knotenleiste). Achte darauf, alle Knoten, nach denen kein weiterer Dialog mehr folgt, mit dem *Ende* Symbol zu verbinden. Nun kannst du deinen Dialog mit einem Klick auf *Ausführen* ausprobieren (denk ans speichern!). 
+### Dialog ausführen
+Um aus den erstellten Spracherkennungs- und Sprachausgabe-Knoten einen Dialog zu formen, müssen diese in der richtigen Reihenfolge verbunden werden.
+ Dies funktioniert durch Anklicken eines Ausgangspfeils eines Knotens und ziehen der entstehenden Kante auf einen beliebigen anderen Knoten. Fügt nun noch ein *Ende* Symbol ein (wieder zu finden in der Knotenleiste). 
+ Achtet darauf, alle Knoten, nach denen kein weiterer Dialog mehr folgt, mit dem *Ende* Symbol zu verbinden. Nun kann der Dialog mit einem Klick auf *Ausführen* ausprobiert werden. (Denkt ans Speichern!). 
 
 Tipp: mit Headset klappt die Erkennung besser.
 
 #### Dialog prüfen
-Durch Auswählen des Menüpunktes *Graph* (oberhalb der Symbolleiste) und im folgenden Dropdown-Menü *Überprüfen*, kann der erstellte Dialog überprüft werden. Dadurch werden Fehler, welche zum Abbruch des Dialogs führen würden, gefunden und angezeigt (z.B. nicht verbundene Knoten oder ein fehlendes *Ende* Symbol).
+Durch Auswählen des Menüpunktes *Graph* (oberhalb der Symbolleiste) und im folgenden Dropdown-Menü *Überprüfen*, kann der erstellte Dialog überprüft werden. 
+Dadurch werden Fehler, welche zum Abbruch des Dialogs führen würden, gefunden und angezeigt (z.B. nicht verbundene Knoten oder ein fehlendes *Ende* Symbol).
 
 
 
