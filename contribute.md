@@ -15,7 +15,11 @@ Please ensure that all links remain functional and keep in mind that you always 
 The developer documentation files are all located in the *developerdocumentation* folder. The only exception is the introduction file, which is located on the first level (*developerdocumentation.md*).
 
 ### Adapt existing documentation
-If, for example, you want to edit the documentation for "Dummy-Seite 1", you open the corresponding file. You can find the exact filename (and path) in the address line of your browser - provided you are currently on the corresponding page (replace .html by .md). The corresponding file is in this case *dummy1.md*.
+If, for example, you want to edit the documentation for "Dummy-Seite 1", you open the corresponding file. You can always find the exact filename 
+(and path) in the address line of your browser - provided you are currently on the corresponding page (just replace .html by .md and you know the name of the file). 
+(Sidenote to avoid confusion: this is no longer the case for "Dummy-Seite 1" because the page is not displayed on the website anymore, only the file remains in the folder.
+ But this does apply to the other existing and displayed pages). 
+ The corresponding file is in this case example *dummy1.md*. 
 
 The file is structured as follows:
 
@@ -65,7 +69,8 @@ nav: false
 
 **Sub-Navigation** -- To switch between the sub-pages.  
 The three hyphens in the first and second-to-last line produce continous lines. The blank line above the second line is mandatory. Otherwise, three dashes appear on the web page instead of a line. The code snippet in the last line is a protected space (HTML). Followed by an empty line (don't forget it!), it provides enough space between the sub-navigation and the following content.  
-The sub-navigation itself consists of a link to the introduction, followed by the juxtaposed links to the different sub-pages. The individual links are separated by two protected spaces. The link to the page to which the current file belongs is replaced by a plain text.
+The sub-navigation itself consists of a link to the introduction, followed by the juxtaposed links to the different sub-pages. 
+The individual links are separated by two protected spaces. The link to the page to which the current file belongs is replaced by a plain text.
 
 Copy the sub-navigation from any other sub-page of the Developer documentation and edit it. Our new sub-navigation looks as follows:
 ```
@@ -76,7 +81,8 @@ Copy the sub-navigation from any other sub-page of the Developer documentation a
 &nbsp;
 
 ```
-The entry to "Dummy-Seite 1" has changed (from plaintext to link) and the entry to "Dummy-Seite 3" (plaintext) has been added. The link to "Dummy-Seite 3" must be added in the in the sub-navigation of EVERY other sub-page AND the introduction page.
+The entry to "Dummy-Seite 1" has changed (from plaintext to link) and the entry to "Dummy-Seite 3" (plaintext) has been added. 
+The link to "Dummy-Seite 3" must be added in the sub-navigation of EVERY other sub-page AND the introduction page.
 
 **Content** -- Here comes your content.
 ```
@@ -95,11 +101,11 @@ The customization of other parts of the web page is similar to that of the devel
 
 ### Editing (Sub) Pages:
 * Please note new features on the [start page](index.html#neu) (*index.md*).
-* Customize the [Tutorials](tutorials.html) if the current ones don't work any more (because of changes to the program code). Try to keep them simple.
+* Customize the [Tutorials](tutorials.html) if the current ones don't work anymore (because of changes to the program code). Try to keep them simple.
 * Helpful or interesting links to the [Links](links.html) page.
 * If you have made significant changes to the DialogOS code or webpage, you can register your name on the [Credits](credits.html) page under "Subsequent Contributors".
 
-### Creating New (Sub) Pages:
+### Creating new (Sub) Pages:
 * If you want to submit sub-pages to a page that does not already have any, please create a subnavigation. 
 * If the new page is to appear in the general navigation bar:
 ```
@@ -111,7 +117,8 @@ order: 7
 ---
 ```
 Set `nav` to `true` and add `order` at the end of the header, to specify at which point the page should appear (first = 1, second = 2, ...). If the new page should be inserted between already existing ones in the general navigation bar, adjust the counter for all those who are to follow it!
-* New tutorials as sub-page of *Tutorials*; a brief description on the introductory page (*tutorials.md*).  
+* New tutorials as sub-page of *Tutorials* (placed in the tutorials folder) and a brief description (and link) on the 
+introductory page (*tutorials.md*).  
 &nbsp;  
 &nbsp;
 
@@ -120,4 +127,5 @@ Set `nav` to `true` and add `order` at the end of the header, to specify at whic
 
 &nbsp;
 
-*Note: The files in the _layout folder should be .txt files. This is NOT a mistake, it is a bug. The format provided by Jekyll for the files in this folder (.hmtl) does not work! (At least at the time of construction of the website.)*
+*Note: The files in the _layout folder should be .txt files. This is NOT a mistake, it is a bug. The format provided by Jekyll for the files 
+in this folder (.html) does not work! (At least at the time of construction of the website.)*
