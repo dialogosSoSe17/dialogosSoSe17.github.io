@@ -36,9 +36,9 @@ Seit 2017 ist DialogOS ***Open Source***.
 	
 &nbsp;
 
-[Hier kommt später ein Screenshot vom Programm, mit einem Beispiel Dialogdiagramm hin]
+[TODO Hier kommt später ein Screenshot vom Programm, mit einem Beispiel Dialogdiagramm hin]
 
-Wie ihr DialogOS installiert seht ihr unter [Download](download.html).
+Wie DialogOS installiert wird seht ihr unter [Download](download.html).
 
 Einen ersten Dialog selber erstellen könnt ihr im Tutorial [Erste Schritte](tutorials/ersteschritte.html).
 
