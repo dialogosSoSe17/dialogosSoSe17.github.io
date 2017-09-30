@@ -85,7 +85,7 @@ Nun kann, wenn der Dialog gestartet wird, eine Zahl von 0-9 gesprochen werden, d
 #### Beispiel 2
 Soll DialogOS darüber hinaus auch rechnen können (z.B. Addition), wird eine etwas aufwendigere Grammatik benötigt. Neben Ziffern muss DialogOS auch Operatoren erkennen und wissen, was diese bedeuten (z.B. dass das Wort "plus" auf Deutsch Addition bedeutet).
 
-Dazu erstellt man eine neue Grammatik (z.B. mit dem Namen "rechnen", die wie folgt aussieht:
+Dazu erstellt man eine neue Grammatik z.B. mit dem Namen "rechnen", die wie folgt aussieht:
 
 ```
 language "Deutsch";
