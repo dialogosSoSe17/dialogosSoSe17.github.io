@@ -19,3 +19,4 @@ nav: false
 * [Apache Log4j 2](https://logging.apache.org/log4j/2.x/) für das Logging von systeminternen Abläufen. [TODO stimmt das so?]
 * [Gradle](https://gradle.org/) zum Bauen der Applikation. [TODO stimmt das so?]
 * [JDOM](http://www.jdom.org/) zum XML-Execution-Logging.
+* [Jing](http://www.thaiopensource.com/relaxng/jing.html) (mit [source code](https://github.com/relaxng/jing-trang)) zur XML-Validation. 

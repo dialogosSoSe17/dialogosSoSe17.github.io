@@ -7,6 +7,7 @@ order: 7
 
 **<center>Thanks to the supporters</center>**
 <center><a href="https://phraseapp.com">PhraseApp</a></center>
+<center><a href="http://www.thaiopensource.com/relaxng/copying.html">Jing (by Thai Open Source Software Center Ltd)</a></center>
 
 **<center>Transfer of DialogOS to Open Source Software and initial Documentation</center>**
 <center>
