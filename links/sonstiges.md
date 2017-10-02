@@ -18,5 +18,6 @@ nav: false
 * [MaryTTS](http://mary.dfki.de/) für die Sprachausgabe.
 * [Apache Log4j 2](https://logging.apache.org/log4j/2.x/) für das Logging von systeminternen Abläufen. [TODO stimmt das so?]
 * [Gradle](https://gradle.org/) zum Bauen der Applikation. [TODO stimmt das so?]
+* [Java ServiceLoader](https://docs.oracle.com/javase/8/docs/api/java/util/ServiceLoader.html) für Plugin-Architektur.
 * [JDOM](http://www.jdom.org/) zum XML-Execution-Logging.
 * [Jing](http://www.thaiopensource.com/relaxng/jing.html) (mit [source code](https://github.com/relaxng/jing-trang)) zur XML-Validation. 
