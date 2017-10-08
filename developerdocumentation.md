@@ -10,8 +10,8 @@ Introduction &nbsp;&nbsp; [Architecture](developerdocumentation/architecture.htm
 ---
 &nbsp;
 
-Here you can find the current Developer Documentation for DialogOS. Until now (19.09.2017), it contains only information about the program parts 
-that were changed / added during the transfer to Open Source. You are welcome to extend the Developer Documentation (see the section below).
+Here you can find the current developer documentation for DialogOS. Until now (08.10.2017), it contains only information about the program parts 
+that were changed / added during the transfer to Open Source. You are welcome to extend the developer documentation (see the section below).
 
 &nbsp;
 

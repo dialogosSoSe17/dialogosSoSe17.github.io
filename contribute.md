@@ -4,7 +4,9 @@ title: Contribute - Customize the web page
 nav: false
 ---
 
-In order to edit the web page, you need [Jekyll](https://jekyllrb.com/) next to the associated [source code](TODO). The source files you want to edit are all written in Markdown (you can find a tutorial [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)). If you want functionality that goes beyond that, you'll need to use HTML code.  
+In order to edit the web page, you need [Jekyll](https://jekyllrb.com/) next to the associated [source code](TODO). The source files you want 
+to edit are all written in Markdown (you can find a tutorial [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)). 
+If you want functionality that goes beyond that, you'll need to use HTML code.  
 If you want to add new pictures, please put them in the folder *pictures*.
 
 Please ensure that all links remain functional and keep in mind that you always <span style="color:red">save the files in UTF8 format!</span>
@@ -12,7 +14,8 @@ Please ensure that all links remain functional and keep in mind that you always 
 ## Edit the Developer- / User-Documentation
 *The following description refers to the developer documentation. The user documentation is to be handled similarly.*
 
-The developer documentation files are all located in the *developerdocumentation* folder. The only exception is the introduction file, which is located on the first level (*developerdocumentation.md*).
+The developer documentation files are all located in the *developerdocumentation* folder. The only exception is the introduction file, 
+which is located on the first level (*developerdocumentation.md*).
 
 ### Adapt existing documentation
 If, for example, you want to edit the documentation for "Dummy-Seite 1", you open the corresponding file. You can always find the exact filename 
@@ -72,7 +75,7 @@ The three hyphens in the first and second-to-last line produce continous lines. 
 The sub-navigation itself consists of a link to the introduction, followed by the juxtaposed links to the different sub-pages. 
 The individual links are separated by two protected spaces. The link to the page to which the current file belongs is replaced by a plain text.
 
-Copy the sub-navigation from any other sub-page of the Developer documentation and edit it. Our new sub-navigation looks as follows:
+Copy the sub-navigation from any other sub-page of the developer documentation and edit it. Our new sub-navigation looks as follows:
 ```
 ---
 [Introduction](/developerdocumentation.html) &nbsp;&nbsp; [Dummy-Seite 1](dummy1.html) &nbsp;&nbsp; [Dummy-Seite 2](dummy2.html) &nbsp;&nbsp; Dummy-Seite 3
