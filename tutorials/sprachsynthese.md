@@ -22,7 +22,8 @@ An jedem Sprachausgabe-Knoten kann, im Drop-Down Menü *Stimme*, gesondert ausge
 Um die Stimme nicht für jeden Sprachausgabe-Knoten einzeln einstellen zu müssen, kann eine **Standardstimme** für den gesamten Dialog gesetzt werden. 
 Hierzu müsst ihr im Menü *Dialog* (oberhalb der Symbolleiste)  *Sprachausgabe* auswählen. Dann öffnet sich ein Fenster, in welchem u.a. die Standardstimme 
 festgelegt werden kann. 
-[TODO Abbildung zu Dialogeinstellungen für die Sprachausgabe?]
+
+[![](/pictures/DialogEinstellungen.PNG)](/pictures/DialogEinstellungen.PNG)
  
 Alle nachfolgend erstellten Sprachausgabe-Knoten haben nun als Stimme die *Standardstimme*. Diese Einstellung kann natürlich an ausgewählten 
 Knoten verändert werden.
@@ -42,7 +43,14 @@ Wird diese Option deaktiviert (*Warten bis die Ausgabe abgeschlossen ist*), wird
 So kann z.B. die Spracherkennung aktiviert werden o.a., während gleichzeitig noch die Sprachausgabe läuft.
 
 ### Weiteres
-Unter *Ausgabe-Typ* kann zwischen der Ausgabe als einfacher Text, als Ausdruck (hierbei wird der Text als Formel interpretiert) oder Groovy Skript gewählt werden. 
-Mehr dazu im übernächsten Tutorial [Grammatiken](grammatiken.html) oder in der [User-Documentation](/userdocumentation.html).
+Unter *Ausgabe-Typ* kann zwischen der Ausgabe als einfacher Text, als Ausdruck (hierbei wird der Text als Formel interpretiert) 
+als [MaryXML](http://mary.dfki.de/documentation/maryxml/index.html) oder Groovy Skript gewählt werden. 
+Mehr dazu im übernächsten Tutorial [Grammatiken](grammatiken.html) und der [User-Documentation](/userdocumentation.html).
 
+#### MaryXML
+Als weiterer Reiter in den Sprachausgabe-Einstellungen ist *MaryXML* aufgeführt. 
+Hier kann mit einem Klick auf *Prompt to MaryXML* eine einfache Eingabe in ein grundlegendes MaryXML-Dokument mit 
+einigen Einstellungen umgewandelt werden, das dann weiter benutzt werden kann. In dem neu erstellten MaryXML-Dokument 
+ist es nun möglich, viel präziser bspw. bestimmte Tonhöhen einzelner Textteile anzupassen. Näheres zu dem Editieren der 
+einzelnen Einstellungen in der [MaryXML-Dokumentation](http://mary.dfki.de/documentation/maryxml/index.html).
 
