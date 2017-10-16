@@ -31,15 +31,23 @@ MaryTTS is an open source text to speech synthesis platform that was implemented
 
 This documentation is mostly about the integration of MaryTTS, to find more information about MaryTTS itself, please refer to the the [official page](http://mary.dfki.de/documentation/index.html).
 
-The current status is that the remodeled text to speech plugin completely works with MaryTTS, it's also possible to edit the properties of the MaryTTS output (speed, pitch etc.) along with a few more new possibilities e.g. an
+The current status is that the remodeled text to speech plugin completely works with MaryTTS. It's also possible to edit the properties of the MaryTTS output (speed, pitch etc.) along with a few more new possibilities e.g. an
 automated MaryXML generation tool.
 
 ### Replacing old TTS with MaryTTS
 
+To use MaryTTS in Dialogos we had to add jcenter into our repositories (For more information see the [MaryTTS's github site](https://github.com/marytts/marytts#using-marytts-in-your-own-java-projects) . We used the preexisting client-architectures that the propietary TTSs (RealSpeak and ATT-TTS) had, even though this might not be as expedient as for the propietary software.
+
 #### Welcome MaryTTS-plugin!
 
+[![](/pictures/classDiagramMaryTTS.png)](/pictures/classDiagramMaryTTS.png)
 
-### Analysis
+Our best guess is that the plugin-architecture with proprietary software was written with the builder design pattern (or a variation of it) in mind. The first object created (even before a new window is openend) is the plugin class of Mary and the voices specified in the `build.gradle` file of the MaryTTSClient folder. Every time a Speech node is draged to the graph-dialog window a new TTSNode object is created. The class MaryTTSClient is not used and exists mainly because we tried to emulate the previous TTS-architecture (and might come in handy once the **exact** purpose of it has been established).
+
+- **TTSNode**: Extends the class `VisualGraphElement` and `DefaultPropertyContainer`. (For the GUI of the menu of the node, see the method `createEditorComponent` in TTSNode). The configuration of every Mary's TTSNode is stored in a property map (container pattern). Under the configurations of a TTSNode we have: the voice, the prompt, type of prompt selected, a checkbox for whether the audio is supposed to not be interrupted, among other minor configurations. Whenever a TTSNode is prompted to `speak`, the configurations set beforehand in the `Settings` class will be taken into account (except if the prompt is of the MaryXML type, in which case the configurations are to be taken from the XML-data itself). In short: This class represent the text-to-speech node "Sprachausgabe" (german). 
+- **Settings**: This class represents a menu for all TTSNodes (which doesn't mean that a TTSNode can't have a specific configuration). These configurations are to be found on the menu toolbar (under `Dialog and Speech synthesis`). The things to be configured are: the voice, speed, pitch and volume, which are stored as properties. (Volume is not working as of 16.10.2017).
+- **Plugin**: The `Plugin` class holds the `MaryTTS`-class and the `Settings`-class. From this class is the first object (with respect to the Speechsynthesis) created.
+- **MaryTTS**: The class `MaryTTS` is the actual client of [MaryTTS](http://mary.dfki.de/). Therein you'll find `MaryInterface` as a field. Since we decided to give the user the option of choosing between a "text-prompt" or "MaryXML-prompt" (among others), we decided (for simplicity's sake) to let `MaryTTS` manage XML-data for all cases.
 
 
 ### Prototype
@@ -86,8 +94,6 @@ This is something you have to see!
 This form allows for far further customization, i.e. changing the prosody settings or varying languages in one text.
 
 **Note:** At the time of writing this, it is not possible to change the volume in the prosody settings. 
-
-#### Prompt to MaryXML Tab
 
 ### Left overs
 
