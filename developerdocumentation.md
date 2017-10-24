@@ -5,7 +5,7 @@ nav: true
 order: 4
 ---
 ---
-Introduction &nbsp;&nbsp; [Architecture](developerdocumentation/architecture.html) &nbsp;&nbsp; [Execution Logger](developerdocumentation/executionlogger.html) &nbsp;&nbsp; [Gradle](developerdocumentation/gradle.html) &nbsp;&nbsp; [Groovy](developerdocumentation/groovy.html) &nbsp;&nbsp; [Localization](developerdocumentation/localization.html) &nbsp;&nbsp; [MaryTTS](developerdocumentation/marytts.html)  &nbsp;&nbsp; [Vocon](developerdocumentation/vocon.html)
+Introduction &nbsp;&nbsp; [Architecture](developerdocumentation/architecture.html) &nbsp;&nbsp; [Execution Logger](developerdocumentation/execution-logger-implementation.html) &nbsp;&nbsp; [Gradle](developerdocumentation/gradle.html) &nbsp;&nbsp; [Groovy](developerdocumentation/Groovy_DevDocumentation.html) &nbsp;&nbsp; [Localization](developerdocumentation/localization.html) &nbsp;&nbsp; [MaryTTS](developerdocumentation/marytts.html)  &nbsp;&nbsp; [Vocon](developerdocumentation/vocon.html)
 
 ---
 &nbsp;

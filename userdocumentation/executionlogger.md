@@ -5,7 +5,7 @@ nav: false
 ---
 
 ---
-[Introduction](/developerdocumentation.html) &nbsp;&nbsp; Execution Logger &nbsp;&nbsp; [Groovy](groovy.html) 
+[Introduction](/userdocumentation.html) &nbsp;&nbsp; Execution Logger 
 
 ---
 &nbsp;

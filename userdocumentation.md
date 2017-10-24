@@ -5,7 +5,7 @@ nav: true
 order: 3
 ---
 ---
-Introduction &nbsp;&nbsp; [Execution Logger](userdocumentation/executionlogger.html) &nbsp;&nbsp; [Groovy](userdocumentation/groovy.html) 
+Introduction &nbsp;&nbsp; [Execution Logger](userdocumentation/executionlogger.html)  
 
 ---
 &nbsp;

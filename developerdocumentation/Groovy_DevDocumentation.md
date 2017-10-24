@@ -47,4 +47,3 @@ The tab for editing the outgoing edges is created in the function createOutgoing
 Beside the Text and Expression (in the DialogOS script language) option, there is an Groovy script option where a speech output can be created using Groovy script. The evaluation works in the same way as the Groovy node. Global Groovy functions and variables can be accessed as well as the non-Groovy global variables. The evaluation result of the script is passed to the speech synthesis and must be a String. The evaluation result of a Groovy script is the result of the last line of the script or the return value passed after a return statement.
 
 
-
